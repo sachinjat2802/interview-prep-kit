@@ -1,0 +1,21 @@
+services:
+  # Monolithic Web Service (Backend + Static Frontend)
+  - type: web
+    name: interview-prep-kit
+    runtime: node
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npm run start:server
+    envVars:
+      - key: PORT
+        value: 3001
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.5-flash-lite
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MONGODB_URI
+        sync: false

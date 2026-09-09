@@ -1,0 +1,36 @@
+{
+  "name": "interview-prep-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered interview preparation kit generator",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w server\" \"npm run dev -w client\"",
+    "dev:server": "npm run dev -w server",
+    "dev:client": "npm run dev -w client",
+    "build": "npm run build -w server && npm run build -w client",
+    "build:server": "npm run build -w server",
+    "start:server": "npm run start -w server",
+    "build:client": "npm run build -w client",
+    "start:client": "npm run start -w client",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "setup": "node -e \"const fs=require('fs'); if(!fs.existsSync('.env')) fs.copyFileSync('.env.example', '.env')\" && npm install && npm run build -w server",
+    "evaluate": "tsx scripts/evaluate.ts --input test-cases.json --output test-kits.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "concurrently": "^9.1.0",
+    "eslint": "^10.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^5.0.0"
+  },
+  "overrides": {
+    "qs": "^6.16.0"
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "case-01",
+    "jd": "Senior Software Engineer\n\nWe are looking for a Senior Engineer with 5+ years React and Node.js experience. Must have strong system design skills, REST API experience, and leadership capability.",
+    "company_url": "https://stripe.com",
+    "days": 5
+  },
+  {
+    "id": "case-02",
+    "jd": "Backend Engineer stub",
+    "company_url": "http://localhost:8099/unreachable",
+    "days": 3
+  },
+  {
+    "id": "case-03",
+    "jd": "Full-Stack Engineer\n\nLooking for a Full-Stack Engineer skilled in TypeScript, React, Next.js, and Node.js. Experience with PostgreSQL, Prisma/Mongoose, GraphQL/REST APIs, Docker, and AWS deployment required.",
+    "company_url": "https://github.com",
+    "days": 7
+  },
+  {
+    "id": "case-04",
+    "jd": "DevOps & Infrastructure Engineer\n\nSeeking a DevOps Engineer proficient in Kubernetes, Terraform, Docker, and CI/CD pipelines (GitHub Actions/GitLab). Must have experience with Prometheus/Grafana monitoring and AWS cloud architecture.",
+    "company_url": "https://vercel.com",
+    "days": 4
+  },
+  {
+    "id": "case-05",
+    "jd": "Mobile Software Engineer\n\nLooking for a Mobile Engineer specializing in React Native and Cross-Platform Mobile Apps. Must understand native iOS/Android bridge integration, state management (Zustand/Redux), and offline-first sync architecture.",
+    "company_url": "https://airbnb.com",
+    "days": 5
+  }
+]

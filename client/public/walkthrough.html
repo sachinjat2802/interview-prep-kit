@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrepAI — Product & Technical Assessment Walkthrough</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #09090b;
+      --card-bg: #18181b;
+      --border: #27272a;
+      --text: #f4f4f5;
+      --muted: #a1a1aa;
+      --accent: #ffffff;
+      --accent-badge: #27272a;
+      --success: #22c55e;
+      --warning: #eab308;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0;
+      margin: 0;
+    }
+    header {
+      background-color: rgba(9, 9, 11, 0.85);
+      -webkit-backdrop-filter: blur(12px);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo-badge {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .logo-icon {
+      width: 36px;
+      height: 36px;
+      background: #ffffff;
+      color: #000000;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    .logo-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .logo-subtitle {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-left: 0.5rem;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .btn {
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background: #ffffff;
+      color: #000000;
+      border: 1px solid #ffffff;
+    }
+    .btn-primary:hover {
+      background: #e4e4e7;
+    }
+    .btn-outline {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-outline:hover {
+      background: var(--card-bg);
+      border-color: #52525b;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 3rem;
+    }
+    .hero h1 {
+      font-size: 2.75rem;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      color: var(--muted);
+      font-size: 1.15rem;
+      max-width: 750px;
+      margin: 0 auto 2rem auto;
+    }
+    .hero-banner {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1.5rem auto;
+      max-width: 600px;
+    }
+    .banner-label {
+      color: var(--muted);
+      font-size: 0.85rem;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    .banner-link {
+      color: #ffffff;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    .badge-grid {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .status-badge {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-family: 'JetBrains Mono', monospace;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--success);
+    }
+    .section-title {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.75rem;
+      margin-bottom: 2rem;
+    }
+    .card-subtitle {
+      margin-bottom: 0.75rem;
+    }
+    .card-text {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    .card-list {
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding-left: 1.25rem;
+      line-height: 1.8;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    @media (max-width: 768px) {
+      .grid-2 { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 2rem; }
+    }
+    .step-number {
+      background: #ffffff;
+      color: #000000;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.875rem;
+      font-weight: 700;
+    }
+    pre, code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.875rem;
+    }
+    pre {
+      background: #000000;
+      padding: 1.25rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      overflow-x: auto;
+      color: #a1a1aa;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      padding: 0.75rem 1rem;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+    }
+    th {
+      background: #000000;
+      color: var(--text);
+      font-weight: 600;
+    }
+    .card-flipper {
+      perspective: 1000px;
+      height: 180px;
+      cursor: pointer;
+    }
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--card-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    .card-flipper.flipped .card-inner {
+      transform: rotateY(180deg);
+    }
+    .card-front, .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    .card-back {
+      transform: rotateY(180deg);
+      background: #121214;
+    }
+    .card-label-front {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+    .card-label-back {
+      font-size: 0.75rem;
+      color: var(--success);
+      margin-bottom: 0.5rem;
+    }
+    .card-back-text {
+      font-size: 0.85rem;
+    }
+    .prod-link {
+      color: #ffffff;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-badge">
+      <div class="logo-icon">P</div>
+      <div>
+        <strong class="logo-title">PrepAI</strong>
+        <span class="logo-subtitle">Assessment Walkthrough</span>
+      </div>
+    </div>
+    <div class="nav-links">
+      <a href="https://interview-prep-kit-av2m.onrender.com/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Launch App 🚀</a>
+      <a href="https://github.com/sachinjat2802/interview-prep-kit" class="btn btn-outline" target="_blank" rel="noopener noreferrer">GitHub Repo 🐙</a>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <div class="hero">
+      <h1>AI Interview Prep Kit Generator</h1>
+      <p>Interactive End-to-End Technical & Product Assessment Submission Walkthrough</p>
+      
+      <div class="hero-banner">
+        <span class="banner-label">🌐 LIVE APPLICATION URL</span>
+        <a href="https://interview-prep-kit-av2m.onrender.com/" target="_blank" rel="noopener noreferrer" class="banner-link">https://interview-prep-kit-av2m.onrender.com/</a>
+      </div>
+      
+      <div class="badge-grid">
+        <div class="status-badge"><span class="dot"></span> Live Deployment: Operational</div>
+        <div class="status-badge"><span class="dot"></span> 29 / 29 Tests Passing</div>
+        <div class="status-badge"><span class="dot"></span> Appendix A & B Compliant</div>
+        <div class="status-badge"><span class="dot"></span> Gemini 3.5 Flash Lite</div>
+      </div>
+    </div>
+
+    <!-- Section 1: End-to-End User Flow Proof -->
+    <section>
+      <h2 class="section-title"><span class="step-number">1</span> End-to-End User Flow & Isolation Proof</h2>
+      <div class="card">
+        <div class="grid-2">
+          <div>
+            <h3 class="card-subtitle">Authentication & Per-User Isolation</h3>
+            <p class="card-text">
+              The platform implements JWT token-based authentication (`auth.middleware.ts`). Every generated prep kit, practice session, and customized card is strictly isolated per authenticated user ID.
+            </p>
+            <ul class="card-list">
+              <li><strong>Register / Login / Session</strong> endpoints via `/api/auth`</li>
+              <li><strong>One-Click Guest Demo Mode</strong> for fast reviewer evaluation</li>
+              <li><strong>In-Memory + MongoDB</strong> dual-layer zero-setup fallback</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="card-subtitle">Accessibility & Responsive Grid</h3>
+            <p class="card-text">
+              High-contrast monochromatic black & white design system tested across desktop displays (1536px) and mobile viewports (375px).
+            </p>
+            <ul class="card-list">
+              <li>Full <code>Tab</code> & <code>Enter</code> keyboard navigation support</li>
+              <li>Responsive grid layouts (`sm:grid-cols-2`, `lg:grid-cols-3`)</li>
+              <li>Zero visual clutter with accessible ARIA landmarks</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Core Pipeline Execution -->
+    <section>
+      <h2 class="section-title"><span class="step-number">2</span> Autonomous 8-Step Pipeline Engine</h2>
+      <div class="card">
+        <p class="card-text">
+          When a user pastes a Job Description and company URL, the backend executes an asynchronous Chain of Responsibility pipeline while streaming real-time progress over SSE:
+        </p>
+        <pre><code>[Raw Job Description + Target Company URL]
+       │
+       ▼
+ 1. Extract Requirements  ──► Role breakdown, seniority, responsibilities & requirement IDs
+ 2. Web Crawling & Research ─► Domain-locked site crawler + public discussion scraper
+ 3. Generate Brief        ──► Synthesizes mission, tech stack & hiring process
+ 4. Generate Questions    ──► Creates Technical, Behavioural & Situational questions
+ 5. Gap Filling Loop      ──► Deterministic coverage gap checker + LLM gap-filling
+ 6. Generate Flashcards   ──► Flashcards linked directly to requirement IDs
+ 7. Build Schedule        ──► Difficulty-weighted study time budget allocator
+ 8. Assemble Kit          ──► Schema validation, default repair & DB persistence</code></pre>
+      </div>
+    </section>
+
+    <!-- Section 3: Interactive Question Bank & Edit Preservation -->
+    <section>
+      <h2 class="section-title"><span class="step-number">3</span> Reshapeable Question Bank & Edit Preservation</h2>
+      <div class="card">
+        <h3 class="card-subtitle">Provenance Tracking (`_state`) & Non-Clobbering Regeneration</h3>
+        <p class="card-text">
+          To guarantee that user customizations are never lost when regenerating sections or filling coverage gaps, every item tracks its provenance state:
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>State Tag (`_state`)</th>
+              <th>Origin</th>
+              <th>Regeneration Behavior</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>'generated'</code></td>
+              <td>AI Pipeline Engine</td>
+              <td>Refreshed or replaced during section regeneration</td>
+            </tr>
+            <tr>
+              <td><code>'edited'</code></td>
+              <td>User Inline Modification</td>
+              <td><strong>Pinned and Preserved</strong> across all regenerations</td>
+            </tr>
+            <tr>
+              <td><code>'user_created'</code></td>
+              <td>User Custom Addition</td>
+              <td><strong>Pinned and Preserved</strong> across all regenerations</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Section 4: Study Tools & Flashcards -->
+    <section>
+      <h2 class="section-title"><span class="step-number">4</span> Interactive Study Tools & AI Mock Practice</h2>
+      <div class="card">
+        <div class="grid-2">
+          <div>
+            <h3>Interactive Flashcard Demo</h3>
+            <p class="card-text">Click card below to flip between front and back answer outline:</p>
+            <div class="card-flipper" onclick="this.classList.toggle('flipped')">
+              <div class="card-inner">
+                <div class="card-front">
+                  <span class="card-label-front">FRONT (Click to Flip)</span>
+                  <strong>What is idempotent API design in distributed systems?</strong>
+                </div>
+                <div class="card-back">
+                  <span class="card-label-back">BACK (Model Answer Outline)</span>
+                  <p class="card-back-text">An operation that produces the same result regardless of how many times it is executed (e.g., PUT/DELETE with idempotency keys).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>Live AI Practice Scoring</h3>
+            <p class="card-text">
+              Timed mock practice mode records user answers and triggers AI evaluation providing:
+            </p>
+            <ul class="card-list">
+              <li><strong>0–100 Overall Mastery Score</strong></li>
+              <li><strong>Key Strengths Breakdown</strong></li>
+              <li><strong>Targeted Areas for Improvement</strong></li>
+              <li><strong>Ideal Model Sample Answer</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Security & Edge-Case Matrix -->
+    <section>
+      <h2 class="section-title"><span class="step-number">5</span> Security Safeguards & Edge-Case Handling Matrix</h2>
+      <div class="card">
+        <h3 class="card-subtitle">Security & SSRF Protections</h3>
+        <p class="card-text">
+          User-submitted company URLs are strictly validated prior to HTTP requests via <code>urlValidator.ts</code>:
+        </p>
+        <ul class="card-list">
+          <li>Rejects Private IPv4/IPv6 ranges: <code>10.0.0.0/8</code>, <code>172.16.0.0/12</code>, <code>192.168.0.0/16</code>, <code>127.0.0.1</code>, <code>169.254.169.254</code>, <code>::1</code>, and <code>localhost</code>.</li>
+          <li>Enforces 2MB maximum HTML body size caps and strips executable <code>&lt;script&gt;</code> tags.</li>
+          <li>Rate limits endpoints to 100 requests / 15 minutes per IP.</li>
+        </ul>
+
+        <h3 class="card-subtitle">Edge-Case Recovery Matrix</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Edge-Case Scenario</th>
+              <th>Handled Recovery Strategy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Thin Job Description (&lt;100 chars)</strong></td>
+              <td>Activates multi-key sentence/bullet point fallback extractor producing 5–8 synthetic requirements.</td>
+            </tr>
+            <tr>
+              <td><strong>Unreachable / Invalid Company URL</strong></td>
+              <td>Logs warning, gracefully skips crawl step, and completes analysis using JD text alone.</td>
+            </tr>
+            <tr>
+              <td><strong>No Public Discussion Found</strong></td>
+              <td>Company brief falls back to domain-level analysis and standard industry interview steps.</td>
+            </tr>
+            <tr>
+              <td><strong>Malformed LLM JSON Response</strong></td>
+              <td>Triggers regex JSON extractor + default fallback schema repair loop.</td>
+            </tr>
+            <tr>
+              <td><strong>1-Day vs 60-Day Schedule Request</strong></td>
+              <td>Dynamic budget algorithm scales linearly while enforcing a 15 min minimum daily budget floor.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Section 6: Verification & Deployment -->
+    <section>
+      <h2 class="section-title"><span class="step-number">6</span> Submission Verification & Deployment Status</h2>
+      <div class="card">
+        <div class="grid-2">
+          <div>
+            <h3>Automated Test Health</h3>
+            <p class="card-text">Vitest Unit Test Suite:</p>
+            <pre><code>✓ tests/coverage.test.ts (8 tests)
+✓ tests/scheduler.test.ts (7 tests)
+✓ tests/validator.test.ts (14 tests)
+
+Test Files  3 passed (3)
+     Tests  29 passed (29)</code></pre>
+          </div>
+          <div>
+            <h3>Live Production URL</h3>
+            <p class="card-text">Deployed Web Application:</p>
+            <p class="card-subtitle"><a href="https://interview-prep-kit-av2m.onrender.com/" class="prod-link" target="_blank" rel="noopener noreferrer">https://interview-prep-kit-av2m.onrender.com/</a></p>
+            <p class="card-text">
+              Fullstack deployment running Express API server and Next.js frontend with dual-layer MongoDB / In-Memory database fallback.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>

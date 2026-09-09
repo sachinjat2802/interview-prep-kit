@@ -1,0 +1,1537 @@
+{
+  "users": {
+    "usr_1788931092035_1001": {
+      "_id": "usr_1788931092035_1001",
+      "email": "sachinjat2802@gmail.com",
+      "passwordHash": "$2a$12$/PcZlBGRqwzRnwEi0Vhfme4BXmbe9gjIp5clO9k6dv.hzlY6KQPeK",
+      "name": "sachin",
+      "createdAt": "2026-09-09T05:18:12.385Z"
+    }
+  },
+  "kits": {
+    "kit_1788948494779_1016": {
+      "_id": "kit_1788948494779_1016",
+      "userId": "usr_1788931092035_1001",
+      "status": "ready",
+      "generationProgress": {
+        "step": 8,
+        "totalSteps": 8,
+        "message": "Kit generation complete!"
+      },
+      "jdText": "Backend dev - Node JS, Typescript,AWS (Mandatory) \nPosition: Backend Developer\nExperience: 9+ Years\nLocation: Any UST Location\nEmployment Type: Contract to Hire\n \nJob description\nWe are looking for a highly skilled Senior Backend Developer with strong expertise in Node.js, TypeScript, REST APIs, and AWS to design, develop, and maintain scalable cloud-native applications. The ideal candidate should have experience building enterprise-grade backend services, microservices, and API-driven architectures while following best engineering practices. Key Responsibilities Design, develop, and maintain scalable backend applications using Node.js and TypeScript. Build and enhance RESTful APIs and microservices-based solutions. Develop cloud-native applications leveraging AWS services. Implement secure, high-performing, and resilient backend systems. Collaborate with cross-functional teams to deliver high-quality software solutions. Participate in architecture discussions, code reviews, and technical design sessions. Optimize application performance, scalability, and reliability. Support CI/CD pipelines and deployment automation. Troubleshoot and resolve production issues while ensuring system stability. Mentor junior team members and contribute to engineering best practices. Mandatory Skills Node.js TypeScript REST API Development AWS (Lambda, API Gateway, ECS/EKS, S3, DynamoDB, CloudWatch, or related services) Microservices Architecture SQL and/or NoSQL Databases Git and CI/CD Practices Strong understanding of Software Design Patterns and Backend Architecture Good to Have Kotlin Infrastructure as Code (Terraform/CloudFormation) Docker and Kubernetes Event-driven Architecture (Kafka, SNS, SQS) Observability and Monitoring Tools Serverless Application Development Agile/Scrum Methodologies\nSkills\nNode.js, AWS, REST, TypeScript",
+      "companyUrl": "https://stripe.com",
+      "daysAvailable": 30,
+      "source": {
+        "company": "Stripe",
+        "company_url": "https://stripe.com",
+        "role": "Backend Developer",
+        "location": "",
+        "jd_chars": 1845,
+        "researched_at": "2026-09-09T10:09:17.676Z",
+        "pages_used": [
+          "https://stripe.com/",
+          "https://stripe.com/in/careers",
+          "https://stripe.com/in/careers/emerging-talent",
+          "https://stripe.com/in/careers/compatibility",
+          "https://stripe.com/in/careers/search",
+          "https://stripe.com/in/customers/jobber",
+          "https://stripe.com/in/customers/jobber-nci-report",
+          "https://stripe.com/in/customers/jobber-ttpoi",
+          "https://stripe.com/industries/fintech",
+          "https://stripe.com/in/industries/fintech",
+          "https://stripe.com/in/blog",
+          "https://stripe.com/in/guides/best-practices-for-launching-and-scaling-platform-payments",
+          "https://stripe.com/in/blog/introducing-our-agentic-commerce-solutions",
+          "https://stripe.com/in/customers/hertz",
+          "https://stripe.com/in/customers/urbn",
+          "https://stripe.com/in/customers/instacart"
+        ]
+      },
+      "company_brief": {
+        "summary": "Stripe is a global technology company that builds economic infrastructure for the internet. It provides financial tools and software that enable businesses of all sizes to accept payments, manage billing, and scale their operations globally. Around 1.7% of the global GDP runs on Stripe's platform.",
+        "what_they_do": "Stripe offers financial infrastructure and revenue tools, including online and in-person payment processing, billing and subscriptions, card issuing, fraud prevention, and crypto and stablecoin transactions. Its mission is to increase economic growth on the internet by building tools that make it easier for businesses to start, run, and scale, as well as providing economic infrastructure for the AI economy.",
+        "sources": [
+          "https://stripe.com/",
+          "https://stripe.com/in/careers",
+          "https://stripe.com/in/careers/emerging-talent",
+          "https://stripe.com/in/careers/compatibility",
+          "https://stripe.com/in/careers/search",
+          "https://stripe.com/in/customers/jobber",
+          "https://stripe.com/in/customers/jobber-nci-report",
+          "https://stripe.com/in/customers/jobber-ttpoi",
+          "https://stripe.com/industries/fintech",
+          "https://stripe.com/in/industries/fintech",
+          "https://stripe.com/in/blog",
+          "https://stripe.com/in/guides/best-practices-for-launching-and-scaling-platform-payments",
+          "https://stripe.com/in/blog/introducing-our-agentic-commerce-solutions",
+          "https://stripe.com/in/customers/hertz",
+          "https://stripe.com/in/customers/urbn",
+          "https://stripe.com/in/customers/instacart"
+        ]
+      },
+      "role": {
+        "title": "Backend Developer",
+        "seniority": "",
+        "responsibilities": [],
+        "requirements": [
+          {
+            "id": "r1",
+            "text": "9+ Years of experience",
+            "kind": "technical",
+            "priority": "must"
+          },
+          {
+            "id": "r2",
+            "text": "Node.js",
+            "kind": "technical",
+            "priority": "must"
+          },
+          {
+            "id": "r3",
+            "text": "TypeScript",
+            "kind": "technical",
+            "priority": "must"
+          },
+          {
+            "id": "r4",
+            "text": "REST API Development",
+            "kind": "technical",
+            "priority": "must"
+          },
+          {
+            "id": "r5",
+            "text": "AWS (Lambda, API Gateway, ECS/EKS, S3, DynamoDB, CloudWatch, or related services)",
+            "kind": "technical",
+            "priority": "must"
+          },
+          {
+            "id": "r6",
+            "text": "Microservices Architecture",
+            "kind": "technical",
+            "priority": "must"
+          },
+          {
+            "id": "r7",
+            "text": "SQL and/or NoSQL Databases",
+            "kind": "technical",
+            "priority": "must"
+          },
+          {
+            "id": "r8",
+            "text": "Git and CI/CD Practices",
+            "kind": "technical",
+            "priority": "must"
+          },
+          {
+            "id": "r9",
+            "text": "Strong understanding of Software Design Patterns and Backend Architecture",
+            "kind": "technical",
+            "priority": "must"
+          },
+          {
+            "id": "r10",
+            "text": "Kotlin",
+            "kind": "technical",
+            "priority": "nice"
+          },
+          {
+            "id": "r11",
+            "text": "Infrastructure as Code (Terraform/CloudFormation)",
+            "kind": "technical",
+            "priority": "nice"
+          },
+          {
+            "id": "r12",
+            "text": "Docker and Kubernetes",
+            "kind": "technical",
+            "priority": "nice"
+          },
+          {
+            "id": "r13",
+            "text": "Event-driven Architecture (Kafka, SNS, SQS)",
+            "kind": "technical",
+            "priority": "nice"
+          },
+          {
+            "id": "r14",
+            "text": "Observability and Monitoring Tools",
+            "kind": "technical",
+            "priority": "nice"
+          },
+          {
+            "id": "r15",
+            "text": "Serverless Application Development",
+            "kind": "technical",
+            "priority": "nice"
+          },
+          {
+            "id": "r16",
+            "text": "Agile/Scrum Methodologies",
+            "kind": "domain",
+            "priority": "nice"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "q16",
+          "requirement_ids": [
+            "r1",
+            "r6",
+            "r16"
+          ],
+          "category": "behavioural",
+          "prompt": "Tell me about a time when you had to balance speed of delivery with architectural craftsmanship on a critical microservices project. How did you manage stakeholder expectations while maintaining high standards?",
+          "answer_outline": "STAR Method:\n1. Situation: Working on a high-throughput microservices backend under tight deadlines for an upcoming product launch.\n2. Task: Deliver the core billing module swiftly without introducing technical debt that could threaten system reliability.\n3. Action: Proactively communicated trade-offs to product stakeholders, proposed a phased delivery strategy (MVP with robust core isolation), implemented strict automated CI/CD checks, and collaborated closely with the team to prioritize critical paths.\n4. Result: Successfully launched on schedule while keeping error rates low and establishing a clean pattern for future services, embodying Stripe's ethos of speed and craft compounding.\n\n```mermaid\nflowchart TD\n    A[\"Identify Tight Deadline\"] --> B[\"Assess Architectural Risks\"]\n    B --> C[\"Negotiate Phased MVP Scope\"]\n    C --> D[\"Implement Automated CI/CD Gates\"]\n    D --> E[\"Deliver Secure & Scalable Module\"]\n    E --> F[\"Review & Plan Refactoring Phase\"]\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q17",
+          "requirement_ids": [
+            "r2",
+            "r3",
+            "r7"
+          ],
+          "category": "behavioural",
+          "prompt": "Describe a situation where a critical database performance bottleneck in a Node.js and TypeScript application impacted production. How did you diagnose, resolve, and prevent recurrence?",
+          "answer_outline": "STAR Method:\n1. Situation: Experiencing severe latency spikes in a high-traffic Node.js API interacting with a PostgreSQL database due to unindexed queries.\n2. Task: Rapidly identify the root cause, mitigate the ongoing outage, and prevent future occurrences.\n3. Action: Used APM tools and database query logs to isolate problematic TypeScript ORM queries. Added appropriate database indexes, optimized query execution plans, and introduced query timeout guards in the backend code.\n4. Result: Reduced average API latency by 70%, stabilized database CPU utilization, and instituted a review process for database queries in pull requests.\n\n```mermaid\nsequenceDiagram\n    participant Client\n    participant NodeApp as Node.js / TS App\n    participant DB as SQL Database\n    Client->>NodeApp: High Volume Requests\n    NodeApp->>DB: Unindexed Query (High Latency)\n    DB-->>NodeApp: Timeout / Slow Response\n    Note over NodeApp,DB: Intervention: Add Indexes & Query Limits\n    NodeApp->>DB: Optimized Indexed Query\n    DB-->>NodeApp: Fast Response\n    NodeApp-->>Client: Success < 50ms\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q18",
+          "requirement_ids": [
+            "r4",
+            "r5",
+            "r14"
+          ],
+          "category": "behavioural",
+          "prompt": "Tell me about a time when a critical REST API integration failure occurred on AWS (e.g., API Gateway and Lambda). How did you coordinate troubleshooting and resolution under extreme pressure?",
+          "answer_outline": "STAR Method:\n1. Situation: A sudden surge in traffic caused intermittent 502 Bad Gateway errors on an AWS serverless REST API endpoint.\n2. Task: Coordinate immediate incident response, identify the failure point, and restore service.\n3. Action: Established an incident command bridge, utilized CloudWatch dashboards and X-Ray tracing to pinpoint a Lambda concurrency limit exhaustion, and collaborated with teammates to increase limits while optimizing downstream database connection pooling.\n4. Result: Restored full API availability within 15 minutes, documented the incident, and implemented automated alerts for approaching concurrency thresholds.\n\n```mermaid\nflowchart TD\n    A[\"Detect 502 Errors via CloudWatch\"] --> B[\"Initiate Incident Response Bridge\"]\n    B --> C[\"Trace Requests via AWS X-Ray\"]\n    C --> D[\"Identify Lambda Concurrency Limit Bottleneck\"]\n    D --> E[\"Scale Limits & Optimize Connection Pool\"]\n    E --> F[\"Verify System Health & Post-Mortem\"]\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q19",
+          "requirement_ids": [
+            "r6",
+            "r9",
+            "r13"
+          ],
+          "category": "behavioural",
+          "prompt": "Give an example of a disagreement you had with another senior engineer regarding the choice between synchronous REST communication versus asynchronous event-driven architecture (e.g., using Kafka or SQS). How did you resolve it?",
+          "answer_outline": "STAR Method:\n1. Situation: Designing a new payment notification service where team members were split between synchronous REST calls and an event-driven queue model.\n2. Task: Reach a technical consensus that aligned with system scalability, fault tolerance, and low latency requirements.\n3. Action: Organized a structured design review, created a proof-of-concept for both approaches, evaluated trade-offs around eventual consistency and failure recovery, and prioritized the architecture that best supported decoupled scaling.\n4. Result: Adopted an event-driven architecture using SQS/SNS that successfully handled traffic spikes without degrading core transaction processing.\n\n```mermaid\nflowchart TD\n    A[\"Identify Disagreement on Comm Style\"] --> B[\"Build Comparative Proof of Concepts\"]\n    B --> C[\"Evaluate Trade-Offs Consistency vs Latency\"]\n    C --> D[\"Conduct Collaborative Design Review\"]\n    D --> E[\"Select Event-Driven Architecture SQS SNS\"]\n    E --> F[\"Successful Scalable Implementation\"]\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q20",
+          "requirement_ids": [
+            "r1",
+            "r8",
+            "r11"
+          ],
+          "category": "behavioural",
+          "prompt": "Describe a time when a CI/CD pipeline or Infrastructure as Code (Terraform) deployment introduced a critical bug into a staging or production environment. How did you handle the rollback and root cause analysis?",
+          "answer_outline": "STAR Method:\n1. Situation: A Terraform update applied via the CI/CD pipeline modified security group rules incorrectly, disrupting inter-service communication.\n2. Task: Quickly rollback the infrastructure change, restore connectivity, and ensure the pipeline prevents similar errors.\n3. Action: Executed an immediate state rollback using version-controlled IaC scripts, communicated status to the engineering team, and introduced automated validation checks (plan checks and linting) prior to apply stages.\n4. Result: Minimized downtime, improved CI/CD pipeline safety gates, and established robust review guidelines for infrastructure modifications.\n\n```mermaid\nflowchart TD\n    A[\"Faulty Terraform Apply in CI/CD\"] --> B[\"Detect Service Communication Failure\"]\n    B --> C[\"Execute State Rollback via Version Control\"]\n    C --> D[\"Restore Normal Traffic\"]\n    D --> E[\"Conduct Root Cause Analysis\"]\n    E --> F[\"Add Pre-Apply Validation Checks\"]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q21",
+          "requirement_ids": [
+            "r2",
+            "r3",
+            "r9"
+          ],
+          "category": "behavioural",
+          "prompt": "Tell me about a time you inherited legacy backend code written in JavaScript and had to refactor and migrate it to TypeScript while maintaining 100% uptime and business continuity.",
+          "answer_outline": "STAR Method:\n1. Situation: Core payment processing modules were written in dynamic JavaScript with sparse tests, leading to runtime type errors.\n2. Task: Safely migrate the codebase to TypeScript without halting feature development or causing regressions.\n3. Action: Incremental migration strategy: enabled strict TypeScript options gradually (allowJs: true), added comprehensive integration tests for critical paths first, and refactored module by module during scheduled sprints.\n4. Result: Eliminated whole classes of runtime bugs, improved IDE developer velocity, and successfully completed the migration with zero customer-facing downtime.\n\n```mermaid\nflowchart TD\n    A[\"Inherit Legacy JavaScript Code\"]\n    B[\"Establish Test Coverage Baseline\"]\n    C[\"Configure TypeScript AllowJS True\"]\n    D[\"Refactor Module by Module\"]\n    E[\"Enable Strict Type Checking\"]\n    F[\"Achieve Full TypeScript Codebase\"]\n    A --> B --> C --> D --> E --> F\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q22",
+          "requirement_ids": [
+            "r5",
+            "r7",
+            "r15"
+          ],
+          "category": "behavioural",
+          "prompt": "Describe a scenario where you designed a serverless data storage strategy using DynamoDB or S3 that experienced unexpected partition key hot-spotting or scaling issues. How did you troubleshoot and re-architect the solution?",
+          "answer_outline": "STAR Method:\n1. Situation: A high-frequency transactional logging service using DynamoDB suffered from throttled write requests due to poor partition key design.\n2. Task: Re-architect the data access pattern to eliminate hot spots and ensure consistent throughput.\n3. Action: Analyzed CloudWatch metrics to identify the offending access pattern, redesigned the partition key strategy using composite keys with randomized suffixes, and implemented caching layers where appropriate.\n4. Result: Completely eliminated throttling events, optimized read/write capacity units, and drastically lowered AWS operational costs.\n\n```mermaid\nflowchart TD\n    A[\"Detect DynamoDB Throttling Events\"]\n    B[\"Analyze CloudWatch Access Patterns\"]\n    C[\"Identify Hot Spotting Partition Keys\"]\n    D[\"Redesign Composite Key Strategy\"]\n    E[\"Implement Randomized Suffixes\"]\n    F[\"Verify Throttling Elimination\"]\n    A --> B --> C --> D --> E --> F\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q23",
+          "requirement_ids": [
+            "r4",
+            "r6",
+            "r14"
+          ],
+          "category": "behavioural",
+          "prompt": "Tell me about a time when a downstream service dependency failed during a high-traffic event. How did your backend architecture handle the failure, and what did you do to improve system resilience afterward?",
+          "answer_outline": "STAR Method:\n1. Situation: A third-party fraud verification API went down during a peak sales window, causing request timeouts across our microservices.\n2. Task: Mitigate cascading failures and protect our core transaction engine.\n3. Action: Immediately activated circuit breakers to fail fast, served degraded fallback responses for non-essential checks, and coordinated with the vendor while updating our retry and backoff strategies.\n4. Result: Prevented system-wide outage, preserved revenue processing for critical transactions, and implemented robust circuit breaker patterns across all service integrations.\n\n```mermaid\nsequenceDiagram\n    participant Client\n    participant API Gateway\n    participant Service as Core Backend\n    participant ThirdParty as Downstream Vendor\n    Client->>API Gateway: Transaction Request\n    API Gateway->>Service: Forward Request\n    Service->>ThirdParty: Verify Fraud (Timeout)\n    Note over Service,ThirdParty: Circuit Breaker Triggered!\n    Service-->>API Gateway: Return Fallback Response\n    API Gateway-->>Client: Process with Safe Defaults\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q24",
+          "requirement_ids": [
+            "r1",
+            "r8",
+            "r12"
+          ],
+          "category": "behavioural",
+          "prompt": "Describe a situation where a containerized (Docker/Kubernetes) deployment caused memory leaks or CPU throttling in production. How did you diagnose the issue and optimize resource allocation?",
+          "answer_outline": "STAR Method:\n1. Situation: Kubernetes pods running a Node.js microservice started crashing randomly with OOMKilled errors under normal load.\n2. Task: Diagnose the memory leak, fix the underlying code issue, and configure proper container resource limits.\n3. Action: Analyzed heap dumps using APM tools, found unclosed event listeners and unbounded caches in the TypeScript code, fixed the leaks, and tuned Kubernetes resource requests and limits based on load testing data.\n4. Result: Stabilized cluster performance, eliminated OOM restarts, and established better monitoring baselines for container memory consumption.\n\n```mermaid\nflowchart TD\n    A[\"Detect OOMKilled Kubernetes Pods\"] --> B[\"Extract & Analyze Heap Dumps\"]\n    B --> C[\"Identify Unbounded Caches & Leaks\"]\n    C --> D[\"Fix Memory Leaks in Code\"]\n    D --> E[\"Tune Kubernetes Resource Limits\"]\n    E --> F[\"Run Load Tests & Verify Stability\"]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q25",
+          "requirement_ids": [
+            "r1",
+            "r9",
+            "r16"
+          ],
+          "category": "behavioural",
+          "prompt": "Tell me about a time when you had to mentor a junior engineer whose code introduced architectural anti-patterns into a shared backend repository. How did you approach the feedback and knowledge transfer?",
+          "answer_outline": "STAR Method:\n1. Situation: A junior developer submitted a pull request that tightly coupled business logic directly into REST controller handlers, violating separation of concerns.\n2. Task: Guide the engineer to refactor the code while fostering a positive, growth-oriented learning environment.\n3. Action: Provided constructive, empathetic code review comments, paired with them to walk through service-repository design patterns, and co-created architectural guidelines for the team.\n4. Result: The engineer successfully refactored the module, gained a deep understanding of backend architecture principles, and independently applied those patterns in future tasks.\n\n```mermaid\nflowchart TD\n    A[\"Identify Architectural Anti-Pattern in PR\"] --> B[\"Provide Empathetic & Constructive Feedback\"]\n    B --> C[\"Pair Program on Service Layer Separation\"]\n    C --> D[\"Refactor Code to Follow Best Practices\"]\n    D --> E[\"Document Guidelines for Team\"]\n    E[\"Junior Engineer Applies Patterns Independently\"]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q26",
+          "requirement_ids": [
+            "r2",
+            "r4",
+            "r7"
+          ],
+          "category": "behavioural",
+          "prompt": "Describe a time when you had to design and implement a complex database migration with zero downtime for millions of active records. How did you ensure data consistency between old and new schemas?",
+          "answer_outline": "STAR Method:\n1. Situation: Needing to restructure a primary user account table in a SQL database supporting a live Node.js REST API with zero downtime.\n2. Task: Migrate schema and data without locking tables or breaking active client requests.\n3. Action: Implemented the Expand-Contract pattern: added new columns/tables, deployed dual-write logic in the backend application, backfilled historical data in batches, and finally removed legacy code paths once verification completed.\n4. Result: Zero downtime migration executed successfully with 100% data integrity and zero customer impact.\n\n```mermaid\nflowchart TD\n    A[\"Plan Expand-Contract Schema Migration\"] --> B[\"Deploy Dual-Write Application Logic\"]\n    B --> C[\"Backfill Historical Data in Batches\"]\n    C --> D[\"Verify Data Consistency Across Schemas\"]\n    D --> E[\"Switch Reads to New Schema\"]\n    E --> F[\"Deprecate & Remove Old Schema\"]\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q27",
+          "requirement_ids": [
+            "r5",
+            "r11",
+            "r14"
+          ],
+          "category": "behavioural",
+          "prompt": "Tell me about a time when you detected a subtle security vulnerability or compliance risk in an AWS cloud architecture just before release. How did you advocate for fixes and ensure secure defaults?",
+          "answer_outline": "STAR Method:\n1. Situation: During a security review prior to launching a new S3 bucket storage service, discovered public read access permissions configured via misapplied Terraform code.\n2. Task: Prevent deployment of insecure infrastructure and enforce strict data privacy standards.\n3. Action: Halted the deployment, explained the risk clearly to project stakeholders, updated the Terraform scripts to enforce private buckets with encrypted server-side defaults, and added automated security linting (checkov/tfsec) to the CI/CD pipeline.\n4. Result: Prevented potential data exposure, protected customer trust, and permanently integrated automated security checks into the release pipeline.\n\n```mermaid\nflowchart TD\n    A[\"Discover Public S3 Misconfiguration\"]\n    B[\"Halt Deployment Pipeline\"]\n    C[\"Communicate Risk to Stakeholders\"]\n    D[\"Fix Terraform & Enforce Private Defaults\"]\n    E[\"Integrate Automated Security Linting Checkov\"]\n    F[\"Secure Deployment Approved\"]\n    A --> B --> C --> D --> E --> F\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q28",
+          "requirement_ids": [
+            "r6",
+            "r9",
+            "r13"
+          ],
+          "category": "behavioural",
+          "prompt": "Describe a scenario where distributed tracing across microservices revealed a deadlock or race condition that only occurred under heavy concurrent load. How did you isolate and resolve it?",
+          "answer_outline": "STAR Method:\n1. Situation: An event-driven order processing pipeline experienced sporadic race conditions resulting in duplicate payment charges under peak load.\n2. Task: Isolate the concurrency bug and implement robust idempotency guarantees.\n3. Action: Utilized distributed tracing and structured logs to track message processing states, implemented idempotency keys in the database layer, and used transactional locking mechanisms in the backend service.\n4. Result: Eliminated duplicate processing entirely, ensured data integrity across microservice boundaries, and improved system reliability.\n\n```mermaid\nflowchart TD\n    A[\"Detect Duplicate Charges Under Peak Load\"] --> B[\"Trace Messages via Distributed Logging\"]\n    B --> C[\"Identify Race Condition in Event Handler\"]\n    C --> D[\"Implement Idempotency Keys in DB\"]\n    D --> E[\"Apply Transactional Locks\"]\n    E --> F[\"Verify Fix Under Load Testing\"]\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q29",
+          "requirement_ids": [
+            "r1",
+            "r3",
+            "r16"
+          ],
+          "category": "behavioural",
+          "prompt": "Tell me about a time when a major project requirement changed mid-development after you had already designed the backend architecture. How did you adapt your design and keep the engineering team aligned?",
+          "answer_outline": "STAR Method:\n1. Situation: Midway through developing a multi-tenant billing API in TypeScript, business requirements shifted to support region-specific data residency compliance.\n2. Task: Adapt the existing architecture to handle data partitioning by geographic region without derailing the delivery timeline.\n3. Action: Re-evaluated the database and service partitioning strategy, designed a pluggable routing middleware layer, communicated timeline adjustments transparently with product management, and reorganized tasks for the team.\n4. Result: Successfully delivered a compliant, multi-region architecture that met the new business needs with minimal rework and high team morale.\n\n```mermaid\nflowchart TD\n    A[\"Major Requirement Shift Multi-Region Data\"] --> B[\"Assess Architectural Impact\"]\n    B --> C[\"Design Pluggable Routing Middleware\"]\n    C --> D[\"Communicate Timeline Adjustments\"]\n    D --> E[\"Reorganize Sprint Tasks\"]\n    E --> F[\"Deliver Compliant Multi-Region Architecture\"]\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q30",
+          "requirement_ids": [
+            "r2",
+            "r4",
+            "r8"
+          ],
+          "category": "behavioural",
+          "prompt": "Describe a situation where you had to debug a production issue where API response times degraded progressively over several days without an obvious trigger. How did you investigate and resolve the underlying leak or bottleneck?",
+          "answer_outline": "STAR Method:\n1. Situation: A Node.js REST API exhibited a slow, creeping memory and event-loop lag increase over 5 days, eventually requiring manual service restarts.\n2. Task: Uncover the slow degradation source and implement a permanent fix.\n3. Action: Set up granular telemetry, analyzed garbage collection logs and heap snapshots over time, discovered an un-cleared interval timer retaining large data closures in memory, and refactored the code to dispose of resources properly.\n4. Result: Restored steady-state memory utilization, eliminated the need for manual restarts, and improved overall application stability.\n\n```mermaid\nflowchart TD\n    A[\"Observe Slow Memory Creep Over Days\"] --> B[\"Collect GC Logs & Heap Snapshots\"]\n    B --> C[\"Identify Un-cleared Interval Timer Closure\"]\n    C --> D[\"Refactor Code to Dispose Resources\"]\n    D --> E[\"Deploy Patch & Monitor Metrics\"]\n    E --> F[\"Verify Stable Memory Utilization\"]\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q31",
+          "requirement_ids": [
+            "r1",
+            "r6",
+            "r9"
+          ],
+          "category": "system-design",
+          "prompt": "Design a globally distributed idempotency key service for financial transactions processing millions of requests per second with strict consistency guarantees. Discuss how you handle race conditions when identical requests arrive concurrently.",
+          "answer_outline": "1. Understand Requirements: Must handle high write throughput, exact-once execution semantics, low latency, and multi-region failover.\n2. Architectural Approach: Use a distributed transactional key-value store (like DynamoDB with conditional writes) fronted by regional Node.js/TypeScript microservices.\n3. Handling Race Conditions: Implement a distributed locking mechanism or pessimistic locking via database conditional expressions (attribute_not_exists) to reject concurrent duplicate requests.\n4. Trade-offs: Strong consistency versus availability during partition events (CP vs AP system choices).\n5. Mermaid Diagram:\n```mermaid\nsequenceDiagram\n    autonumber\n    participant Client\n    participant API_Gateway\n    participant NodeService as Node.js Service\n    participant DB as DynamoDB\n    Client->>API_Gateway: POST /v1/charges (Idempotency-Key: abc)\n    API_Gateway->>NodeService: Forward Request\n    NodeService->>DB: Conditional Write (Key: abc, Status: PROCESSING)\n    alt Key Exists & Completed\n        DB-->>NodeService: Return Cached Result\n        NodeService-->>Client: 200 OK (Cached Response)\n    else Key Exists & Processing\n        DB-->>NodeService: ConditionalCheckFailedException\n        NodeService-->>Client: 409 Conflict / Retry-After\n    else New Key\n        DB-->>NodeService: Success\n        NodeService->>NodeService: Execute Payment Logic\n        NodeService->>DB: Update Key Status (Status: COMPLETED, Result: payload)\n        NodeService-->>Client: 200 OK (Fresh Response)\n    end\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q32",
+          "requirement_ids": [
+            "r2",
+            "r3",
+            "r4",
+            "r5"
+          ],
+          "category": "system-design",
+          "prompt": "Design a high-throughput serverless webhook delivery system using AWS Lambda, SQS, and API Gateway that guarantees at-least-once delivery with exponential backoff and dead-letter queueing.",
+          "answer_outline": "1. Requirements: Outbound webhook dispatch to thousands of merchant endpoints with varying latency and failure rates.\n2. Components: API Gateway ingestion, Amazon SQS FIFO/Standard queues for buffering, AWS Lambda consumers for batch processing and HTTP dispatch, and DynamoDB for tracking delivery attempts.\n3. Retry Strategy: Implement exponential backoff with jitter inside Lambda execution before pushing back to SQS visibility timeout or moving to a DLQ.\n4. Security & Observability: HMAC signature generation for payloads, CloudWatch metrics for latency and failure alerts.\n5. Mermaid Diagram:\n```mermaid\nflowchart TD\n    A[Event Trigger] -->|Enqueue| B(SQS Queue)\n    B -->|Batch Poll| C[AWS Lambda Dispatcher]\n    C -->|HTTP POST + HMAC| D[Merchant Endpoint]\n    D -- Success --> E[Acknowledge SQS Message]\n    D -- Failure --> F{Retry Count Exceeded?}\n    F -- No --> G[Increase Backoff & Requeue]\n    F -- Yes --> H[Send to DLQ]\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q33",
+          "requirement_ids": [
+            "r6",
+            "r13"
+          ],
+          "category": "system-design",
+          "prompt": "Design an event-driven architecture using Kafka or AWS SNS/SQS for processing real-time asynchronous merchant payouts. Explain how you ensure message ordering and handle consumer lag during traffic spikes.",
+          "answer_outline": "1. Context: Payout ledger updates must be processed sequentially per merchant account to prevent balance corruption.\n2. Partitioning Strategy: Use merchant_id as the partition key in Kafka to guarantee strict ordering of events per merchant.\n3. Scalability & Lag Management: Consumer group scaling, auto-scaling based on consumer lag metrics, and backpressure handling.\n4. Idempotency & Recovery: Offset management, at-least-once processing, and compensating transactions for failed downstream banking APIs.\n5. Mermaid Diagram:\n```mermaid\nflowchart LR\n    A[Payout API] -->|Produce Event| B[Kafka Topic: Payouts]\n    B -->|Partition by Merchant ID| C1[Consumer 1]\n    B -->|Partition by Merchant ID| C2[Consumer 2]\n    C1 -->|Ledger Update| D[PostgreSQL DB]\n    C2 -->|Ledger Update| D\n    C1 -.->|Lag Alert| E[CloudWatch Monitor]\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q34",
+          "requirement_ids": [
+            "r7",
+            "r9"
+          ],
+          "category": "system-design",
+          "prompt": "Design a multi-tenant global ledger database schema supporting double-entry bookkeeping for millions of businesses. Discuss sharding strategies and maintaining ACID properties across distributed shards.",
+          "answer_outline": "1. Requirements: Strict financial invariants (sum of debits equals credits), high write throughput, tenant isolation.\n2. Schema Design: Immutable ledger entries table, account balance table with optimistic concurrency control.\n3. Sharding Strategy: Tenant-based sharding or hash-based sharding on account_id. Cross-shard transactions managed via Saga pattern or two-phase commit where necessary.\n4. Performance Optimization: Append-only writes, indexing strategy, and archival partitioning for historical data.\n5. Mermaid Diagram:\n```mermaid\nflowchart TD\n    A[Client Request] -->|Route by Tenant ID| B[API Service]\n    B -->|Saga Coordinator| C[Shard A: Ledger Entries]\n    B -->|Saga Coordinator| D[Shard B: Account Balances]\n    C --> E[Validate Double Entry Invariant]\n    D --> E\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q35",
+          "requirement_ids": [
+            "r5",
+            "r11",
+            "r12"
+          ],
+          "category": "system-design",
+          "prompt": "Design a zero-downtime blue/green deployment pipeline for a Node.js microservices fleet running on Amazon ECS/EKS, managed via Terraform infrastructure-as-code.",
+          "answer_outline": "1. Infrastructure Setup: Terraform modularizing VPC, ECS clusters, Application Load Balancer (ALB), and target groups.\n2. Deployment Strategy: ECS rolling update or Blue/Green deployment using AWS CodeDeploy and ALB target shifting.\n3. Health Checks: Readiness and liveness probes in Node.js to ensure graceful termination and connection draining.\n4. Rollback Mechanisms: Automatic rollback on CloudWatch alarm triggers (e.g., HTTP 5xx error rate spikes).\n5. Mermaid Diagram:\n```mermaid\nsequenceDiagram\n    autonumber\n    participant CI as CI/CD Pipeline\n    participant TF as Terraform\n    participant ECS as ECS Blue/Green\n    participant ALB as Application Load Balancer\n    CI->>TF: Apply Infrastructure Changes\n    TF->>ECS: Provision Green Task Set\n    ECS->>ALB: Register Green Target Group\n    Note over ALB: Shift Traffic Gradually (10% -> 100%)\n    ALB->>ECS: Drain Blue Task Set\n    ECS->>TF: Terminate Blue Resources\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q36",
+          "requirement_ids": [
+            "r4",
+            "r14"
+          ],
+          "category": "system-design",
+          "prompt": "Design a distributed rate-limiting gateway service in TypeScript/Node.js to protect critical financial APIs against DDoS attacks and brute-force token generation.",
+          "answer_outline": "1. Algorithm Choice: Token Bucket or Sliding Window Log implemented in Redis for sub-millisecond evaluation.\n2. Architecture: Edge proxy / API Gateway middleware communicating with a distributed Redis cluster across multiple availability zones.\n3. Graceful Degradation: Fail-open vs fail-closed strategy during Redis cluster partition events.\n4. Observability: Prometheus metrics and CloudWatch dashboards tracking rate-limit rejections per API route.\n5. Mermaid Diagram:\n```mermaid\nflowchart TD\n    A[Incoming API Request] -->|Extract API Key & IP| B[Node.js Gateway Middleware]\n    B -->|Eval Sliding Window| C[(Redis Cluster)]\n    C -- Under Limit --> D[Forward to Downstream Service]\n    C -- Over Limit --> E[Return 429 Too Many Requests]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q37",
+          "requirement_ids": [
+            "r1",
+            "r6",
+            "r9"
+          ],
+          "category": "system-design",
+          "prompt": "Design a distributed subscription and recurring billing engine that triggers invoices, handles failed card charges, and manages retry schedules across different time zones.",
+          "answer_outline": "1. Core Domain: Subscriptions, Invoice generation, Billing cycles, Dunning management.\n2. Scheduling Engine: Use a distributed scheduling pattern (e.g., AWS EventBridge combined with SQS delayed messages or database polling with locking) to trigger invoice creation.\n3. State Machine: Define a robust subscription state machine (Active, Past Due, Canceled, Trialing).\n4. Error Handling: Smart retry logic for expired or declined payment cards with customizable notification workflows.\n5. Mermaid Diagram:\n```mermaid\nstateDiagram-v2\n    [*] --> Trialing\n    Trialing --> Active : Payment Success\n    Active --> PastDue : Payment Failed\n    PastDue --> Active : Retry Success\n    PastDue --> Canceled : Max Retries Exceeded\n    Active --> Canceled : User Cancellation\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q38",
+          "requirement_ids": [
+            "r5",
+            "r7",
+            "r15"
+          ],
+          "category": "system-design",
+          "prompt": "Design a serverless real-time fraud detection scoring pipeline using AWS Lambda, DynamoDB, and an external ML inference service that evaluates transactions within 50 milliseconds.",
+          "answer_outline": "1. Latency Budget: Strict 50ms SLA requiring asynchronous enrichment and optimized network payloads.\n2. Architecture: API Gateway -> Lambda (Data Enrichment from DynamoDB user profile cache) -> Parallel async calls to ML scoring engine and rules engine.\n3. Caching Strategy: Redis / DAX for caching user velocity metrics and past transaction features.\n4. Fallback Handling: Timeout mitigation where if ML service exceeds 30ms, fall back to heuristic rules engine.\n5. Mermaid Diagram:\n```mermaid\nsequenceDiagram\n    autonumber\n    participant Client\n    participant GW as API Gateway\n    participant Lambda as Node.js Lambda\n    participant Cache as DynamoDB / DAX\n    participant ML as ML Inference Engine\n    Client->>GW: POST /evaluate-fraud\n    GW->>Lambda: Invoke\n    par Fetch Profile & Rules\n        Lambda->>Cache: Get User Velocity Metrics\n    and ML Scoring\n        Lambda->>ML: POST /score (Timeout: 30ms)\n    end\n    ML-->>Lambda: Fraud Score\n    Cache-->>Lambda: User History\n    Lambda->>Client: Return Decision (Allow / Challenge / Block)\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q39",
+          "requirement_ids": [
+            "r2",
+            "r3",
+            "r4"
+          ],
+          "category": "system-design",
+          "prompt": "Design a high-performance GraphQL and REST API gateway aggregator in TypeScript that merges data from dozens of microservices while handling partial failures and response caching.",
+          "answer_outline": "1. Architecture: API Gateway acting as a Backend-for-Frontend (BFF) built with Node.js and TypeScript.\n2. Resilience Patterns: Circuit breakers (using Opossum or similar), request timeouts, and bulkheads for downstream microservices.\n3. Partial Failures: Schema stitching or federation handling where failed downstream microservice responses return null fields with detailed error extensions.\n4. Caching & Batching: DataLoader pattern for batching N+1 database queries across downstream REST/GraphQL services.\n5. Mermaid Diagram:\n```mermaid\nflowchart TD\n    A[Client App] -->|GraphQL Query| B[TypeScript API Gateway / BFF]\n    B -->|Batch Requests via DataLoader| C[(Service A: Users)]\n    B -->|Batch Requests via DataLoader| D[(Service B: Transactions)]\n    B -->|Circuit Breaker Protected| E[(Service C: Analytics)]\n    C --> F[Aggregated Response JSON]\n    D --> F\n    E -.->|Fallback Null| F\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q40",
+          "requirement_ids": [
+            "r7",
+            "r14"
+          ],
+          "category": "system-design",
+          "prompt": "Design a distributed audit logging and compliance tracking system capable of ingesting petabytes of transaction logs with immutable storage and sub-second querying capabilities.",
+          "answer_outline": "1. Requirements: Append-only immutability, tamper-proof cryptographic hashing (Merkle trees), fast search capabilities for compliance audits.\n2. Pipeline: Fluentbit log collection -> Kafka buffer -> S3 Glacier / Parquet format for long-term cold storage + Elasticsearch / OpenSearch for fast indexing.\n3. Security: Encryption at rest (KMS), role-based access control (RBAC), and write-once-read-many (WORM) storage policies.\n4. Monitoring: Log pipeline drop detection and alerts on storage write failures.\n5. Mermaid Diagram:\n```mermaid\nflowchart LR\n    A[Microservices Fleet] -->|JSON Logs| B[Fluentbit Daemonset]\n    B -->|Stream| C[Kafka Audit Topic]\n    C --> D[Consumer: S3 WORM Storage]\n    C --> E[Consumer: OpenSearch Index]\n    E -->|Search Query| F[Compliance Dashboard]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q41",
+          "requirement_ids": [
+            "r1",
+            "r6",
+            "r9"
+          ],
+          "category": "system-design",
+          "prompt": "Design a multi-region active-active database replication and conflict resolution strategy for global user account settings with low write latency.",
+          "answer_outline": "1. Challenge: Avoiding split-brain scenarios and handling conflicting concurrent updates across regions.\n2. Strategy: Last-Write-Wins (LWW) using hybrid logical clocks (HLC) or Conflict-Free Replicated Data Types (CRDTs) for unstructured preference fields.\n3. Routing: Anycast DNS routing clients to the nearest regional AWS data center.\n4. Asynchronous Replication: Cross-region replication streams with idempotent merge logic.\n5. Mermaid Diagram:\n```mermaid\nsequenceDiagram\n    autonumber\n    participant ClientEU as Client (EU)\n    participant RegionEU as AWS EU Region\n    participant RegionUS as AWS US Region\n    participant ClientUS as Client (US)\n    ClientEU->>RegionEU: Update Setting (HLC: T1)\n    RegionEU->>RegionUS: Async Replication Stream\n    ClientUS->>RegionUS: Update Setting (HLC: T2)\n    Note over RegionUS: Resolve Conflict using HLC (T2 > T1)\n    RegionUS->>RegionEU: Sync Resolved State\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q42",
+          "requirement_ids": [
+            "r2",
+            "r3",
+            "r8"
+          ],
+          "category": "system-design",
+          "prompt": "Design an automated canary deployment and progressive traffic shifting framework for TypeScript backend services utilizing metrics-driven evaluation.",
+          "answer_outline": "1. Objective: Automatically promote or roll back microservice releases based on real-time Prometheus error rates and latency telemetry.\n2. Architecture: Argo Rollouts or custom AWS CodeDeploy Lambda hooks interacting with Istio service mesh / ALB weighted routing.\n3. Evaluation Window: Soak period of 15 minutes checking 5xx error rate delta and p99 latency against baseline.\n4. Automation: CI/CD pipeline integration with automated rollback triggers on threshold breach.\n5. Mermaid Diagram:\n```mermaid\nflowchart TD\n    A[Deploy New Version v2] -->|Shift 10% Traffic| B[Canary Pods]\n    B -->|Emit Metrics| C[Prometheus / CloudWatch]\n    C --> D{Error Rate < 0.1%?}\n    D -- Yes -->|Shift 50% Traffic| E[Expand Canary]\n    D -- No -->|Trigger Alarm| F[Automated Rollback to v1]\n    E -->|Shift 100% Traffic| G[Promote to Stable]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q43",
+          "requirement_ids": [
+            "r5",
+            "r7",
+            "r13"
+          ],
+          "category": "system-design",
+          "prompt": "Design a scalable file upload and document processing pipeline for KYC identity verification supporting multi-gigabyte documents securely stored in S3 with asynchronous virus scanning and OCR processing.",
+          "answer_outline": "1. Upload Flow: Direct-to-S3 pre-signed URL upload pattern to avoid proxying large binary files through Node.js API servers.\n2. Security: Server-side encryption (SSE-S3/KMS), strict bucket policies, and presigned URL short expiration times.\n3. Processing Pipeline: S3 Object Created Event -> SQS -> ECS Worker / Lambda -> ClamAV Virus Scan -> AWS Textract / OCR -> Result notification via Webhook.\n4. Quarantine Handling: Infected files moved immediately to an isolated quarantine S3 bucket.\n5. Mermaid Diagram:\n```mermaid\nsequenceDiagram\n    autonumber\n    participant Client\n    participant API as Node.js API\n    participant S3 as AWS S3 Bucket\n    participant SQS as SQS Queue\n    participant Worker as ECS Worker (OCR/Virus Scan)\n    Client->>API: Request Presigned URL\n    API-->>Client: Return Presigned URL\n    Client->>S3: Upload Document Directly\n    S3->>SQS: S3 Object Created Event\n    SQS->>Worker: Pull Event Batch\n    Worker->>S3: Download & Scan (ClamAV / Textract)\n    Worker->>API: Update KYC Status (Approved / Rejected)\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q44",
+          "requirement_ids": [
+            "r6",
+            "r9",
+            "r14"
+          ],
+          "category": "system-design",
+          "prompt": "Design a distributed tracing and observability platform architecture across a polyglot microservices ecosystem using OpenTelemetry, AWS X-Ray / Jaeger, and Elasticsearch.",
+          "answer_outline": "1. Instrumentation: Standardize OpenTelemetry (OTel) SDKs across all Node.js and Kotlin microservices for context propagation (W3C Trace Context).\n2. Collection: OpenTelemetry Collector daemonsets deployed on EKS clusters aggregating spans and metrics.\n3. Storage & Querying: Exporting traces to Elasticsearch or Jaeger backend with efficient index lifecycle management (ILM).\n4. Alerting: Correlating distributed trace latency bottlenecks with APM metrics and log anomalies.\n5. Mermaid Diagram:\n```mermaid\nflowchart LR\n    A[Node.js Service A] -->|HTTP Headers W3C Trace| B[Kotlin Service B]\n    A -->|Export Spans| C[OTel Collector Daemonset]\n    B -->|Export Spans| C\n    C -->|Batch Pipeline| D[(Elasticsearch / Jaeger)]\n    D -->|Query UI| E[Engineering Dashboard]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q45",
+          "requirement_ids": [
+            "r1",
+            "r4",
+            "r16"
+          ],
+          "category": "system-design",
+          "prompt": "Design a global API versioning and deprecation lifecycle management system that enables seamless breaking changes without disrupting enterprise merchant integrations.",
+          "answer_outline": "1. Strategy: URI path versioning (/v1/, /v2/) combined with request header versioning (Stripe-Version: YYYY-MM-DD) for granular deprecations.\n2. Gateway Routing: API Gateway / Node.js middleware inspecting custom headers and routing requests to appropriate microservice version handlers.\n3. Developer Experience: Automated SDK code generators, deprecation warning headers in API responses, and dashboard alerts for merchants using deprecated endpoints.\n4. Migration Lifecycle: Graceful sunsetting roadmap with automated analytics tracking remaining traffic per API version.\n5. Mermaid Diagram:\n```mermaid\nflowchart TD\n    A[Merchant API Request] -->|Inspect Stripe-Version Header| B[API Gateway Middleware]\n    B -- v1 Request --> C[v1 Microservice Legacy Cluster]\n    B -- v2 Request --> D[v2 Microservice Modern Cluster]\n    B -->|Inject Deprecation Warning Header| E[Add X-Stripe-Warning Header]\n    C --> F[Return Response]\n    D --> F\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q46",
+          "requirement_ids": [
+            "r1",
+            "r9"
+          ],
+          "category": "company-fit",
+          "prompt": "Stripe's core operating principle emphasizes the tension between 'Speed and Craft Compound'—getting faster while obsessing over every detail. As a senior backend developer with 9+ years of experience, how do you balance the pressure to rapidly ship critical financial infrastructure with the absolute requirement for extreme precision, zero-defect resilience, and fault-tolerant system design?",
+          "answer_outline": "1. Align with Stripe values: Acknowledge that speed and craft are not mutually exclusive; rigorous craftsmanship acts as a force multiplier for long-term velocity.\n2. Leverage automated guardrails: Explain how robust CI/CD pipelines, automated testing, static analysis (TypeScript strict mode), and infrastructure-as-code linting allow rapid deployments without sacrificing safety.\n3. Implement progressive delivery: Discuss techniques like feature flags, canary deployments, shadow traffic testing, and phased rollouts to validate changes in production safely.\n4. Design for failure from first principles: Detail how defensive programming, comprehensive observability (metrics, logs, traces), and automated circuit breakers handle edge cases gracefully.\n5. Illustrate with a Mermaid.js workflow demonstrating the balance between rapid iteration and safety gates:\n\n```mermaid\nflowchart TD\n    A[\"Developer Code Commit\"] --> B[\"Automated CI Guardrails\"]\n    B --> C[\"Static Analysis and Testing\"]\n    C --> D{\"Safety Gate Passed?\"}\n    D -->|Yes| E[\"Canary Deployment\"]\n    D -->|No| F[\"Immediate Feedback Loop\"]\n    E --> G[\"Monitor Telemetry & Error Budgets\"]\n    G --> H{\"Anomalies Detected?\"}\n    H -->|Yes| I[\"Automated Rollback\"]\n    H -->|No| J[\"Full Production Rollout\"]\n\n    style A fill:#f9f,stroke:#333,stroke-width:2px\n    style J fill:#bbf,stroke:#333,stroke-width:2px\n    style I fill:#fbb,stroke:#333,stroke-width:2px\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q47",
+          "requirement_ids": [
+            "r2",
+            "r3",
+            "r4"
+          ],
+          "category": "company-fit",
+          "prompt": "Stripe processes billions of API requests globally with strict latency SLAs and absolute idempotency requirements. When building high-throughput REST APIs using Node.js and TypeScript, how do you align your coding standards with Stripe's 'Built for the Best' principle, ensuring predictable performance and robust error handling under extreme load?",
+          "answer_outline": "1. Reference Stripe values: Emphasize obsession with customer success and API reliability, recognizing that API latency and failures directly impact merchants' revenue.\n2. TypeScript strictness: Utilize advanced type systems, branded types for IDs (e.g., ChargeId vs CustomerId), and strict runtime validation (e.g., Zod) to eliminate type mismatch bugs at the boundary.\n3. Node.js concurrency management: Handle asynchronous operations efficiently, avoiding event loop blocking by offloading CPU-intensive tasks or utilizing worker threads.\n4. Idempotency and fault tolerance: Design APIs to be strictly idempotent using unique request keys stored in distributed caches or databases to prevent double-charging during network retries.\n5. Illustrate with a Mermaid.js sequence diagram showing the handling of an idempotent API request:\n\n```mermaid\nsequenceDiagram\n    participant Client\n    participant APIGateway as API Gateway\n    participant NodeService as Node.js Service\n    participant Redis as Redis Cache\n    participant DB as Database\n\n    Client->>APIGateway: POST /v1/charges (Idempotency-Key: xyz)\n    APIGateway->>NodeService: Forward Request\n    NodeService->>Redis: Check Key 'xyz'\n    alt Key Exists (Duplicate Request)\n        Redis-->>NodeService: Return Cached Response\n        NodeService-->>Client: Return 200 OK (Cached)\n    else Key Does Not Exist\n        NodeService->>Redis: Set Key 'xyz' with Lock\n        NodeService->>DB: Execute Transaction\n        DB-->>NodeService: Success\n        NodeService->>Redis: Cache Result for 24h\n        NodeService-->>Client: Return 201 Created\n    end\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q48",
+          "requirement_ids": [
+            "r5",
+            "r11",
+            "r15"
+          ],
+          "category": "company-fit",
+          "prompt": "Stripe relies heavily on cloud infrastructure (AWS) and serverless paradigms to scale elastically while maintaining cost efficiency. How do you approach cloud architecture design and Infrastructure as Code (IaC) to reflect Stripe's culture of questioning established defaults ('Better defaults exist') and rethinking infrastructure from first principles?",
+          "answer_outline": "1. Cultural alignment: Discuss how questioning traditional monolith-to-server defaults helps optimize cost, security, and scalability.\n2. Serverless & Container synergy: Balance AWS Lambda/API Gateway for variable workloads with ECS/EKS for long-running, predictable services, avoiding vendor lock-in where appropriate.\n3. IaC rigor: Treat infrastructure strictly as code using Terraform or CloudFormation with automated PR reviews, automated security scanning (e.g., Checkov), and modular designs.\n4. Observability-first infrastructure: Ensure every AWS resource provisioned includes CloudWatch alarms, structured logging, and distributed tracing out of the box.\n5. Illustrate with a Mermaid.js architecture flowchart for resilient AWS serverless and container workloads:\n\n```mermaid\nflowchart LR\n    A[\"Client Request\"] --> B[\"AWS API Gateway\"]\n    B --> C{\"Workload Type?\"}\n    C -->|Event Driven / Burst| D[\"AWS Lambda Functions\"]\n    C -->|Persistent / Compute Intensive| E[\"AWS ECS / EKS Cluster\"]\n    D --> F[(Amazon DynamoDB)]\n    E --> G[(Relational Database RDS)]\n    D --> H[\"AWS SQS / SNS\"]\n    E --> H\n    F --> I[\"CloudWatch & Observability\"]\n    G --> I\n\n    style A fill:#f9f,stroke:#333,stroke-width:2px\n    style I fill:#bbf,stroke:#333,stroke-width:2px\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q49",
+          "requirement_ids": [
+            "r6",
+            "r13"
+          ],
+          "category": "company-fit",
+          "prompt": "As Stripe builds the economic infrastructure for the AI economy and global commerce, our microservices and event-driven architectures (Kafka, SQS) handle immense transaction volumes. How do you design decoupled distributed systems that prevent cascading failures, maintaining alignment with Stripe's mission to increase economic growth without systemic downtime?",
+          "answer_outline": "1. Mission alignment: Connect system resilience directly to Stripe's goal of powering global commerce where downtime equals direct economic loss for businesses.\n2. Event-driven decoupling: Utilize Kafka or SQS/SNS for asynchronous communication to isolate services, absorb traffic spikes, and ensure eventual consistency.\n3. Resilience patterns: Implement circuit breakers, retries with exponential backoff and jitter, dead-letter queues (DLQs), and rate limiting across all microservices boundaries.\n4. Distributed tracing: Ensure correlation IDs propagate across all event payloads and HTTP headers to debug distributed transactions seamlessly.\n5. Illustrate with a Mermaid.js flowchart showing event-driven failure isolation:\n\n```mermaid\nflowchart TD\n    A[\"Payment Service\"] -->|Publish Event| B[\"Kafka / AWS SNS\"]\n    B --> C[\"Fraud Detection Service\"]\n    B --> D[\"Billing Service\"]\n    B --> E[\"Notification Service\"]\n    C -->|Failure / Timeout| F[\"Circuit Breaker Opens\"]\n    F --> G[\"Fallback Mechanism / DLQ\"]\n    G --> H[\"Alerting & CloudWatch Metric\"]\n\n    style A fill:#f9f,stroke:#333,stroke-width:2px\n    style F fill:#fbb,stroke:#333,stroke-width:2px\n    style H fill:#bbf,stroke:#333,stroke-width:2px\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q50",
+          "requirement_ids": [
+            "r7"
+          ],
+          "category": "company-fit",
+          "prompt": "Stripe manages massive financial ledgers requiring uncompromising ACID compliance alongside high-throughput NoSQL datastores for transient state and metadata. How do you approach database schema design, indexing, and data consistency models to support Stripe's scale while maintaining strict financial accuracy?",
+          "answer_outline": "1. Value alignment: Rigor about details and absolute data integrity, recognizing that financial ledgers tolerate zero data corruption or race conditions.\n2. SQL for Ledgers: Utilize strict SQL databases (PostgreSQL/Aurora) with proper isolation levels, foreign key constraints, and optimistic/pessimistic locking for ledger transactions.\n3. NoSQL for Scale: Leverage DynamoDB or similar NoSQL stores for high-volume, single-key access patterns like rate limiters, idempotency stores, and session caching.\n4. Migration strategies: Execute zero-downtime schema migrations using expand-and-contract patterns to ensure uninterrupted global traffic.\n5. Illustrate with a Mermaid.js state diagram representing a ledger transaction state machine:\n\n```mermaid\nstateDiagram-v2\n    [*] --> Pending\n    Pending --> Locked: Acquire Row Lock\n    Locked --> Verified: Check Balance & Constraints\n    Verified --> Committed: Execute SQL Transaction\n    Verified --> Aborted: Constraint Violation\n    Committed --> [*]\n    Aborted --> [*]\n\n    state Locked {\n        [*] --> OptimisticLock\n        OptimisticLock --> PessimisticLock: High Contention\n    }\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q51",
+          "requirement_ids": [
+            "r8",
+            "r14"
+          ],
+          "category": "company-fit",
+          "prompt": "Stripe's engineering culture relies on top-tier observability, automated CI/CD pipelines, and fast feedback loops. How do you leverage GitOps, automated testing, and comprehensive monitoring tools to detect regressions before they reach production, reflecting the principle that 'Better defaults exist'?",
+          "answer_outline": "1. Cultural alignment: Challenge the default of manual QA by advocating for fully automated, shift-left testing and continuous deployment pipelines.\n2. GitOps & CI/CD: Utilize GitHub Actions or enterprise CI/CD to run unit, integration, contract, and load tests automatically on every pull request.\n3. Observability pillars: Implement structured JSON logging, Prometheus/CloudWatch metrics, and distributed tracing (OpenTelemetry) with actionable alerting thresholds.\n4. Incident response: Design runbooks and automated remediation workflows integrated directly into monitoring alerts to minimize Mean Time to Resolution (MTTR).\n5. Illustrate with a Mermaid.js flowchart of the GitOps and CI/CD validation pipeline:\n\n```mermaid\nflowchart LR\n    A[\"Git PR\"] --> B[\"CI Runner\"]\n    B --> C[\"Unit & Integration Tests\"]\n    C --> D[\"Security & Dependency Scan\"]\n    D --> E[\"Contract Testing\"]\n    E --> F[\"Artifact Build & Registry\"]\n    F --> G[\"Automated Staging Deploy\"]\n    G --> H[\"Synthetic Monitoring & Smoke Tests\"]\n    H --> I[\"Production Release\"]\n\n    style A fill:#f9f,stroke:#333,stroke-width:2px\n    style I fill:#bbf,stroke:#333,stroke-width:2px\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q52",
+          "requirement_ids": [
+            "r1",
+            "r9",
+            "r16"
+          ],
+          "category": "company-fit",
+          "prompt": "As a senior developer joining Stripe, you will often collaborate across cross-functional Agile teams to deliver complex products that impact millions of businesses. How do you mentor junior and mid-level engineers, foster technical excellence, and maintain team velocity while keeping alignment with Stripe's ambitious product roadmap?",
+          "answer_outline": "1. Leadership alignment: Emphasize that senior engineers at Stripe multiply the impact of their teams through mentorship, clear technical writing, and thoughtful code reviews.\n2. Agile execution: Balance sprint planning and Agile ceremonies with psychological safety, encouraging engineers to surface blockers early and challenge technical debt proactively.\n3. Mentorship framework: Pair programming, architecture design document reviews (RFCs), and constructive code review feedback focused on 'why' rather than just 'what'.\n4. Continuous learning: Encourage a culture of blameless post-mortems and knowledge sharing sessions.\n5. Illustrate with a Mermaid.js mindmap of engineering leadership pillars:\n\n```mermaid\nmindmap\n    root((Engineering Leadership))\n      Mentorship\n        Code Reviews\n        Pair Programming\n        RFC Authoring\n      Agile Delivery\n        Sprint Planning\n        Blocker Resolution\n        Roadmap Alignment\n      Technical Excellence\n        Design Patterns\n        Automated Testing\n        Refactoring Debt\n      Culture\n        Blameless Postmortems\n        Psychological Safety\n        First Principles Thinking\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q53",
+          "requirement_ids": [
+            "r2",
+            "r3",
+            "r9"
+          ],
+          "category": "company-fit",
+          "prompt": "Stripe is building infrastructure for the AI economy, including real-time agent micropayments and autonomous software transactions. Imagine designing a backend Node.js/TypeScript service that handles high-frequency, low-latency AI agent API calls. How do you structure this service to adhere to Stripe's standards of craft, performance, and clean software architecture?",
+          "answer_outline": "1. Context alignment: Acknowledge Stripe's focus on AI infrastructure and the unique demands of high-frequency autonomous agent transactions.\n2. Architecture design: Apply clean architecture principles (Domain-Driven Design, separation of concerns) within Node.js/TypeScript.\n3. Performance tuning: Utilize asynchronous streaming, connection pooling, and efficient memory management to keep garbage collection pauses minimal.\n4. Security and rate limiting: Implement robust token bucket rate limiters and cryptographic verification for AI agent requests.\n5. Illustrate with a Mermaid.js sequence diagram for AI agent micropayments:\n\n```mermaid\nsequenceDiagram\n    participant AIAgent as AI Agent\n    participant APIGateway as API Gateway\n    participant MicropayService as Node.js Micropayment Service\n    participant Ledger as Ledger Database\n\n    AIAgent->>APIGateway: POST /v1/agent/transact (Signed Token)\n    APIGateway->>MicropayService: Verify Cryptographic Signature\n    MicropayService->>Ledger: Check Agent Wallet Balance\n    Ledger-->>MicropayService: Balance Sufficient\n    MicropayService->>Ledger: Atomic Debit & Credit\n    Ledger-->>MicropayService: Transaction Confirmed\n    MicropayService-->>AIAgent: Return 200 OK & Receipt\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q54",
+          "requirement_ids": [
+            "r4",
+            "r6",
+            "r14"
+          ],
+          "category": "company-fit",
+          "prompt": "When a critical third-party banking partner or downstream microservice experiences an outage, Stripe's systems must degrade gracefully without taking down the entire merchant platform. How do you design fault-tolerant API boundaries and observability dashboards to manage cascading failures?",
+          "answer_outline": "1. Value alignment: Obsession with merchant success and business continuity during external disruptions.\n2. Degradation strategies: Implement fallback responses, cached data serving, and graceful feature toggling when dependencies fail.\n3. Observability dashboards: Configure real-time SLO/SLI tracking, error budget burn alerts, and PagerDuty integration.\n4. Post-incident learning: Conduct rigorous blameless post-mortems to update architecture and prevent recurrence.\n5. Illustrate with a Mermaid.js flowchart showing fallback handling during partner outages:\n\n```mermaid\nflowchart TD\n    A[\"Incoming API Request\"] --> B[\"Payment Processing Service\"]\n    B --> C{\"External Banking Partner Up?\"}\n    C -->|Yes| D[\"Process Live Transaction\"]\n    C -->|No| E[\"Trigger Circuit Breaker\"]\n    E --> F[\"Serve Degraded Mode / Queue for Retry\"]\n    D --> G[\"Success Response\"]\n    F --> H[\"Alert Engineering & Log Incident\"]\n\n    style A fill:#f9f,stroke:#333,stroke-width:2px\n    style E fill:#fbb,stroke:#333,stroke-width:2px\n    style G fill:#bbf,stroke:#333,stroke-width:2px\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q55",
+          "requirement_ids": [
+            "r1",
+            "r5",
+            "r12"
+          ],
+          "category": "company-fit",
+          "prompt": "Stripe operates across multiple AWS regions globally to ensure high availability and low latency for international merchants. As a senior backend engineer, how do you approach multi-region data replication, container orchestration (Docker/Kubernetes), and disaster recovery planning?",
+          "answer_outline": "1. Global scale alignment: Recognize that 1.7% of global GDP depends on Stripe's cross-border availability and resilience.\n2. Multi-region architecture: Utilize active-active or active-passive database replication strategies, global load balancing, and route53 health checks.\n3. Container deployment: Deploy containerized workloads across regions using Kubernetes (EKS) managed via declarative GitOps manifests.\n4. Disaster recovery: Define strict RPO (Recovery Point Objective) and RTO (Recovery Time Objective) targets, validated through regular chaos engineering exercises (e.g., Game Days).\n5. Illustrate with a Mermaid.js multi-region architecture diagram:\n\n```mermaid\nflowchart TD\n    A[\"Global Route 53 DNS\"] -->|Traffic Routing| B[\"AWS Region US-East\"]\n    A -->|Traffic Routing| C[\"AWS Region EU-West\"]\n    subgraph US-East\n        B --> D[\"EKS Cluster US\"]\n        D --> E[(Aurora DB Primary)]\n    end\n    subgraph EU-West\n        C --> F[\"EKS Cluster EU\"]\n        F --> G[(Aurora DB Replica)]\n    end\n    E -.->|Cross-Region Replication| G\n\n    style A fill:#f9f,stroke:#333,stroke-width:2px\n    style E fill:#bbf,stroke:#333,stroke-width:2px\n    style G fill:#bbf,stroke:#333,stroke-width:2px\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q56",
+          "requirement_ids": [
+            "r3",
+            "r9",
+            "r10"
+          ],
+          "category": "company-fit",
+          "prompt": "While Node.js and TypeScript form a core part of our stack, Stripe also utilizes languages like Kotlin and Java for specific high-performance backend systems. How do you adapt your software design patterns and architectural thinking when working across multi-language backend ecosystems, and how do you ensure seamless inter-service communication?",
+          "answer_outline": "1. Polyglot mindset: Acknowledge that different languages excel at different problem domains (e.g., TypeScript for rapid product iteration, Kotlin for heavy JVM multithreading).\n2. Design patterns: Apply consistent architectural principles (SOLID, Domain-Driven Design) regardless of the underlying language.\n3. API contracts: Use strict schema definitions (OpenAPI, Protocol Buffers/gRPC) to ensure type safety and contract adherence between Node.js and Kotlin services.\n4. Collaborative engineering: Demonstrate flexibility and willingness to ramp up quickly on unfamiliar tech stacks by leveraging core computer science fundamentals.\n5. Illustrate with a Mermaid.js diagram showing polyglot microservice interaction:\n\n```mermaid\nflowchart LR\n    A[\"Node.js API Gateway (TypeScript)\"] -->|gRPC / Protobuf| B[\"Kotlin Payment Engine (JVM)\"]\n    B -->|SQL / JDBC| C[(PostgreSQL Ledger)]\n    A -->|REST / JSON| D[\"Node.js Webhook Service\"]\n\n    style A fill:#f9f,stroke:#333,stroke-width:2px\n    style B fill:#bbf,stroke:#333,stroke-width:2px\n    style C fill:#bfb,stroke:#333,stroke-width:2px\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q57",
+          "requirement_ids": [
+            "r4",
+            "r8",
+            "r15"
+          ],
+          "category": "company-fit",
+          "prompt": "Stripe's webhook delivery system guarantees reliable event notification to millions of merchant endpoints worldwide despite intermittent network failures on the receiver's end. How would you design a robust, scalable webhook dispatching system using AWS SQS, Node.js, and exponential backoff retry logic?",
+          "answer_outline": "1. Merchant obsession: Recognize that merchants rely on webhooks for order fulfillment, inventory updates, and billing status.\n2. System architecture: Use SQS queues to decouple event generation from webhook delivery workers.\n3. Retry mechanics: Implement exponential backoff with jitter and configurable maximum retry counts, storing delivery status in a database.\n4. Security and signing: Sign every webhook payload with a cryptographic secret so merchants can verify authenticity.\n5. Illustrate with a Mermaid.js flowchart of the webhook delivery lifecycle:\n\n```mermaid\nflowchart TD\n    A[\"Event Triggered\"] --> B[\"Enqueue to AWS SQS\"]\n    B --> C[\"Node.js Worker Picks Up Event\"]\n    C --> D[\"Sign Payload with HMAC\"]\n    D --> E[\"HTTP POST to Merchant Endpoint\"]\n    E --> F{\"Response Status 2xx?\"}\n    F -->|Yes| G[\"Mark Delivery Success\"]\n    F -->|No| H[\"Calculate Exponential Backoff & Retry\"]\n    H -->|Max Retries Exceeded| I[\"Move to Dead Letter Queue & Alert\"]\n\n    style A fill:#f9f,stroke:#333,stroke-width:2px\n    style G fill:#bbf,stroke:#333,stroke-width:2px\n    style I fill:#fbb,stroke:#333,stroke-width:2px\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q58",
+          "requirement_ids": [
+            "r1",
+            "r9",
+            "r14"
+          ],
+          "category": "company-fit",
+          "prompt": "During high-traffic events like Black Friday or Cyber Monday, Stripe experiences unprecedented traffic surges. As a senior backend developer, how do you proactively perform capacity planning, load testing, and bottleneck identification to ensure platform stability?",
+          "answer_outline": "1. Operational readiness: Align with Stripe's urgency and rigor during peak retail seasons where uptime directly fuels global economic growth.\n2. Load testing methodology: Use tools like k6 or Gatling to simulate realistic production traffic patterns, testing database connection pools and API throughput limits.\n3. Bottleneck identification: Analyze CPU, memory, database query execution times, and lock contention using CloudWatch and APM tools.\n4. Scalability strategies: Implement horizontal pod autoscaling, database read replicas, and aggressive caching where appropriate.\n5. Illustrate with a Mermaid.js flowchart of the capacity planning and testing cycle:\n\n```mermaid\nflowchart LR\n    A[\"Traffic Forecast\"] --> B[\"Simulate Load with k6\"]\n    B --> C[\"Monitor APM & Bottlenecks\"]\n    C --> D{\"Performance SLA Met?\"}\n    D -->|No| E[\"Optimize Queries / Scale Infrastructure\"]\n    E --> B\n    D -->|Yes| F[\"Approve for Peak Event\"]\n\n    style A fill:#f9f,stroke:#333,stroke-width:2px\n    style F fill:#bbf,stroke:#333,stroke-width:2px\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q59",
+          "requirement_ids": [
+            "r2",
+            "r3",
+            "r7"
+          ],
+          "category": "company-fit",
+          "prompt": "Data privacy, security, and compliance (PCI-DSS, GDPR) are paramount at Stripe. When handling sensitive user and financial data in Node.js/TypeScript applications, what architectural and coding practices do you enforce to prevent data leaks and ensure strict compliance?",
+          "answer_outline": "1. Trust and security: Emphasize that security is foundational to Stripe's brand and customer trust.\n2. Data minimization & tokenization: Ensure raw cardholder data (PAN) never touches application servers; rely on client-side tokenization and secure vault services.\n3. Encryption: Enforce TLS in transit and AES-256 encryption at rest for all stored data. Use secure environment variable management (AWS Secrets Manager).\n4. Code review & linting: Use static analysis tools to scan code for hardcoded secrets, SQL injection vulnerabilities, and insecure dependencies.\n5. Illustrate with a Mermaid.js sequence diagram showing tokenized payment processing protecting sensitive data:\n\n```mermaid\nsequenceDiagram\n    participant Client\n    participant StripeJS as Stripe.js (Client SDK)\n    participant APIGateway as API Gateway\n    participant NodeService as Node.js Backend\n    participant Vault as Secure Token Vault\n\n    Client->>StripeJS: Input Sensitive Card Data\n    StripeJS->>Vault: Tokenize Card Data Directly\n    Vault-->>StripeJS: Return Opaque Token (tok_123)\n    StripeJS->>Client: Return Token\n    Client->>APIGateway: POST /v1/charges (Token: tok_123)\n    APIGateway->>NodeService: Process Charge using Token\n    Note over NodeService,Vault: Backend never sees raw card data!\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q60",
+          "requirement_ids": [
+            "r1",
+            "r6",
+            "r16"
+          ],
+          "category": "company-fit",
+          "prompt": "Stripe encourages a culture of high individual agency where small teams can impact millions of businesses globally ('Individual agency still has outsized impact'). Describe a time when you took ownership of a complex legacy backend problem, proposed a bold architectural redesign, and successfully executed it with your team.",
+          "answer_outline": "1. STAR framework execution: Structure the response clearly outlining Situation, Task, Action, and Result.\n2. Situation: Describe a legacy backend bottleneck or architectural pain point limiting company growth.\n3. Task: Explain your responsibility as a senior engineer to take ownership and architect a modern, scalable replacement.\n4. Action: Detail the steps taken—writing an RFC, collaborating across Agile teams, phasing the rollout, and maintaining zero downtime during migration.\n5. Result: Highlight quantifiable outcomes (e.g., latency reduction, cost savings, increased team velocity) and how this reflects Stripe's culture of agency and craftsmanship.",
+          "difficulty": 2
+        },
+        {
+          "id": "q2",
+          "requirement_ids": [
+            "r2",
+            "r3"
+          ],
+          "category": "technical",
+          "prompt": "In a high-load Node.js and TypeScript backend service, how do you manage the single-threaded event loop to prevent CPU-bound tasks (such as cryptographic hashing or heavy JSON serialization) from starving asynchronous I/O operations?",
+          "answer_outline": "1. Identify blocking operations using Node.js diagnostic report tools or clinic.js (Flamegraph).\n2. Offload CPU-heavy workloads to worker_threads or external serverless functions (AWS Lambda).\n3. Use asynchronous streaming APIs (stream.pipeline) for processing large payloads instead of loading entire datasets into V8 heap memory.\n4. Leverage TypeScript strict typing and type guards to optimize serialization paths and prevent runtime overhead.\n\n```mermaid\nsequenceDiagram\n    participant Client\n    participant EventLoop as Node.js Event Loop\n    participant Worker as Worker Thread\n    Client->>EventLoop: HTTP Request (Heavy CPU Task)\n    EventLoop->>Worker: Offload Computation\n    EventLoop->>Client: Handle Concurrent I/O Requests\n    Worker-->>EventLoop: Return Computation Result\n    EventLoop-->>Client: Respond with Processed Data\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q1",
+          "requirement_ids": [
+            "r1",
+            "r9"
+          ],
+          "category": "technical",
+          "prompt": "With 9+ years of backend architecture experience, how would you design a highly available, eventually consistent distributed ledger for high-throughput payment routing handling millions of transactions per day, ensuring absolute idempotency and zero double-charging?",
+          "answer_outline": "1. Define idempotency keys at the API gateway layer using distributed locking via Redis or DynamoDB conditional writes.\n2. Implement a two-phase commit or saga pattern utilizing an event-driven ledger architecture with Kafka.\n3. Ensure database schema uses append-only event logs rather than mutable updates to maintain an immutable audit trail.\n4. Design fallback mechanisms and circuit breakers (e.g., using resilience4js or equivalent) for downstream acquiring bank timeouts.\n\n```mermaid\nflowchart TD\n    A[Client Request] --> B[API Gateway & Idempotency Check]\n    B -->|Duplicate Found| C[Return Cached Response]\n    B -->|New Request| D[Kafka Event Bus]\n    D --> E[Ledger Service - Append Only]\n    E --> F[DynamoDB Storage]\n    D --> G[Payment Processing Worker]\n    G --> H[Acquiring Bank API]\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q3",
+          "requirement_ids": [
+            "r4",
+            "r7"
+          ],
+          "category": "technical",
+          "prompt": "Design a scalable REST API strategy for paginating large transaction datasets in a PostgreSQL database containing hundreds of millions of rows, comparing offset-based pagination with cursor-based pagination.",
+          "answer_outline": "1. Analyze offset-based pagination pitfalls: performance degradation at high offsets due to sequential scans and row discarding (O(N) complexity).\n2. Implement cursor-based (keyset) pagination using indexed unique columns (e.g., created_at and id).\n3. Construct optimal SQL queries utilizing composite indexes: WHERE (created_at, id) < ($1, $2) ORDER BY created_at DESC, id DESC LIMIT $3.\n4. Provide opaque base64-encoded cursors to clients to encapsulate implementation details.\n\n```mermaid\nflowchart LR\n    A[Client Request with Cursor] --> B[API Controller]\n    B --> C[PostgreSQL Query with Keyset Index]\n    C --> D[Fetch Limit + 1 Records]\n    D --> E[Generate Next Cursor from Last Item]\n    E --> F[Return JSON Response with Paginated Data]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q4",
+          "requirement_ids": [
+            "r5",
+            "r15"
+          ],
+          "category": "technical",
+          "prompt": "Architect a serverless webhook delivery system using AWS Lambda, API Gateway, SQS, and DynamoDB that guarantees at-least-once delivery with exponential backoff and dead-letter queue (DLQ) isolation for failed endpoints.",
+          "answer_outline": "1. Ingest webhook dispatch requests through API Gateway triggering an SQS FIFO queue to preserve order per merchant.\n2. Configure an AWS Lambda consumer triggered by SQS to execute HTTP POST requests to recipient endpoints with a strict timeout.\n3. Implement exponential backoff and jitter by leveraging SQS visibility timeout extensions upon HTTP failures.\n4. Route permanently failed messages after max retries to a DynamoDB-backed Dead Letter Queue for merchant inspection and manual replay.\n\n```mermaid\nflowchart TD\n    A[Publisher Service] --> B[AWS API Gateway]\n    B --> C[SQS FIFO Queue]\n    C --> D[Lambda Consumer Function]\n    D -->|Success| E[Endpoint Received]\n    D -->|Failure & Retries < Max| C\n    D -->|Failure & Max Retries| F[DynamoDB Dead Letter Queue]\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q5",
+          "requirement_ids": [
+            "r6",
+            "r13"
+          ],
+          "category": "technical",
+          "prompt": "How do you handle distributed transactions and eventual consistency across multiple decoupled microservices in an event-driven architecture using Apache Kafka?",
+          "answer_outline": "1. Adopt the Orchestration-based or Choreography-based Saga pattern.\n2. Publish domain events with unique correlation IDs to Kafka topics, ensuring partition keys align with entity IDs (e.g., merchant_id) to guarantee ordering.\n3. Implement outbox pattern in local databases to atomically write business data and publish events, preventing dual-write failures.\n4. Build robust compensation handlers to reverse completed local transactions in case of downstream failures.\n\n```mermaid\nsequenceDiagram\n    participant ServiceA as Order Service\n    participant Outbox as Local DB Outbox\n    participant Kafka as Apache Kafka\n    participant ServiceB as Payment Service\n    ServiceA->>Outbox: Save Order & Event Atomically\n    Outbox->>Kafka: Publish OrderCreated Event\n    Kafka->>ServiceB: Consume OrderCreated Event\n    ServiceB->>ServiceB: Process Payment & Emit PaymentProcessed\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q6",
+          "requirement_ids": [
+            "r7"
+          ],
+          "category": "technical",
+          "prompt": "Compare relational (PostgreSQL) and NoSQL (DynamoDB) data modeling strategies for storing dynamic merchant metadata and custom attributes. When would you choose one over the other at scale?",
+          "answer_outline": "1. PostgreSQL: Relational, strong ACID guarantees, excellent for complex ad-hoc queries, joins, and relational integrity via foreign keys, but requires schema migrations for dynamic attributes (JSONB columns).\n2. DynamoDB: NoSQL, predictable single-digit millisecond latency at any scale, schema-less design, ideal for high-throughput key-value lookups, but requires careful upfront access pattern modeling.\n3. Evaluation criteria: Access patterns, query complexity, data velocity, consistency requirements, and write/read scale ratios.\n\n```mermaid\nflowchart TD\n    A[Define Data Access Patterns] --> B{Complex Joins or Ad-hoc Queries?}\n    B -->|Yes| C[PostgreSQL with JSONB]\n    B -->|No| D{High Scale Key-Value Access?}\n    D -->|Yes| E[AWS DynamoDB]\n    D -->|No| C\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q7",
+          "requirement_ids": [
+            "r8",
+            "r12"
+          ],
+          "category": "technical",
+          "prompt": "Describe your ideal Git branching and CI/CD deployment pipeline strategy for a zero-downtime microservices architecture running on Kubernetes.",
+          "answer_outline": "1. Utilize Trunk-Based Development or GitHub Flow with short-lived feature branches and mandatory pull request reviews.\n2. CI Pipeline (GitHub Actions/GitLab CI): Static analysis (ESLint, TypeScript checks), unit/integration tests, vulnerability scanning (Snyk/Trivy), and Docker image multi-architecture building.\n3. CD Pipeline: Push immutable images to container registry, update Kubernetes manifests or Helm charts in a GitOps repository (ArgoCD).\n4. Deployment Strategy: Rolling updates with readiness and liveness probes, combined with canary deployments via service meshes (Istio) for risk mitigation.\n\n```mermaid\nflowchart LR\n    A[Git Commit to Main] --> B[CI: Lint, Test & Build Docker Image]\n    B --> C[Push to ECR Registry]\n    C --> D[GitOps Update Helm Chart]\n    D --> E[ArgoCD Sync to Kubernetes Cluster]\n    E --> F[Canary Rollout & Health Check]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q8",
+          "requirement_ids": [
+            "r9",
+            "r2"
+          ],
+          "category": "technical",
+          "prompt": "Implement or describe the application of the Circuit Breaker and Retry design patterns in a TypeScript backend service communicating with external financial partner APIs.",
+          "answer_outline": "1. Circuit Breaker States: Closed (normal operation), Open (fast-failing calls when error thresholds are exceeded), Half-Open (testing recovery with limited traffic).\n2. Implementation details: Track failure counts over sliding time windows using Redis or in-memory state counters.\n3. Retry mechanism: Combine exponential backoff with full jitter to prevent thundering herd problems when partner APIs recover.\n4. TypeScript implementation utilizing decorators or functional wrapper middleware around Axios/Fetch clients.\n\n```mermaid\nstateDiagram-v2\n    [*] --> Closed\n    Closed --> Open: Failure threshold exceeded\n    Open --> HalfOpen: Timeout period elapsed\n    HalfOpen --> Closed: Test request succeeds\n    HalfOpen --> Open: Test request fails\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q9",
+          "requirement_ids": [
+            "r11",
+            "r5"
+          ],
+          "category": "technical",
+          "prompt": "How do you manage infrastructure drift and secure state management when provisioning AWS infrastructure (ECS, RDS, VPC) using Terraform across multiple staging and production environments?",
+          "answer_outline": "1. Use remote state storage in encrypted AWS S3 buckets with DynamoDB state locking to prevent concurrent apply conflicts.\n2. Structure Terraform code using modular architecture (reusable modules for VPC, ECS Fargate, RDS) and isolated root environments via workspaces or directory separation.\n3. Integrate automated infrastructure validation into CI/CD using `terraform plan`, `tfsec`, and `tflint` security scanning.\n4. Mitigate drift through scheduled periodic `terraform plan` checks alerting on unapproved manual modifications.\n\n```mermaid\nflowchart TD\n    A[Terraform Code PR] --> B[CI Pipeline: tflint & tfsec]\n    B --> C[terraform plan Execution]\n    C --> D[Manual Review & Approval]\n    D --> E[terraform apply to AWS]\n    E --> F[State Updated in S3 with DynamoDB Lock]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q10",
+          "requirement_ids": [
+            "r14",
+            "r5"
+          ],
+          "category": "technical",
+          "prompt": "Design a comprehensive observability and monitoring strategy for a distributed Node.js microservices ecosystem on AWS, integrating metrics, structured logging, and distributed tracing.",
+          "answer_outline": "1. Structured Logging: Use JSON log format with Pino/Winston, ensuring correlation IDs (trace IDs) are injected into every log entry for cross-service tracking.\n2. Metrics: Collect RED metrics (Rate, Errors, Duration) using Prometheus/CloudWatch embedded metric format.\n3. Distributed Tracing: Instrument applications with OpenTelemetry SDK, propagating W3C Trace Context headers across HTTP requests and Kafka message envelopes.\n4. Alerting: Define actionable SLO-based alerts sent to PagerDuty for error rate spikes and latency degradation.\n\n```mermaid\nflowchart TD\n    A[Node.js Microservice] -->|OpenTelemetry| B[AWS X-Ray / Jaeger]\n    A -->|Structured JSON Logs| C[AWS CloudWatch Logs]\n    A -->|Prometheus Metrics| D[CloudWatch / Grafana Dashboard]\n    D --> E[PagerDuty Alerts]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q11",
+          "requirement_ids": [
+            "r10"
+          ],
+          "category": "technical",
+          "prompt": "For systems requiring high-performance JVM execution alongside Node.js, how do you design interoperability or microservice communication using Kotlin and Spring Boot for heavy analytical processing?",
+          "answer_outline": "1. Identify use cases for Kotlin/Spring Boot: Complex financial modeling, batch processing, and high-throughput data aggregation.\n2. Establish communication protocols: gRPC over HTTP/2 for low-latency, strongly-typed internal RPC, or asynchronous messaging via Kafka.\n3. Leverage Kotlin's null-safety, coroutines for non-blocking I/O, and data classes to ensure robust domain modeling.\n4. Share protocol buffer (Protobuf) definitions across TypeScript and Kotlin services to guarantee contract alignment.\n\n```mermaid\nflowchart LR\n    A[TypeScript API Gateway] -->|gRPC / HTTP2| B[Kotlin Spring Boot Analytics Service]\n    B --> C[PostgreSQL Data Warehouse]\n    B --> D[Kafka Analytics Stream]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q12",
+          "requirement_ids": [
+            "r12"
+          ],
+          "category": "technical",
+          "prompt": "Optimize a Docker container image for a Node.js and TypeScript application to minimize security vulnerabilities, reduce image size, and accelerate build times in CI pipelines.",
+          "answer_outline": "1. Use multi-stage builds: Stage 1 for building TypeScript into JavaScript using dev dependencies; Stage 2 containing only production runtime dependencies and compiled artifacts.\n2. Choose secure, lightweight base images (e.g., node:20-alpine or distroless images).\n3. Implement proper Docker layer caching by copying package.json and package-lock.json before copying source code.\n4. Run containers as non-root users and scan images for CVEs using Trivy or Snyk in the CI pipeline.\n\n```mermaid\nflowchart TD\n    A[Source Code & package.json] --> B[Stage 1: Build & Compile TypeScript]\n    B --> C[Stage 2: Production Alpine/Distroless Image]\n    C --> D[Vulnerability Scan with Trivy]\n    D --> E[Optimized Secure Container Image]\n```",
+          "difficulty": 2
+        },
+        {
+          "id": "q13",
+          "requirement_ids": [
+            "r13",
+            "r6"
+          ],
+          "category": "technical",
+          "prompt": "How do you handle schema evolution and backwards compatibility when producing and consuming events in an event-driven architecture using Apache Kafka and Schema Registry?",
+          "answer_outline": "1. Implement Confluent Schema Registry with Apache Avro or JSON Schema for message validation.\n2. Enforce compatibility rules (FULL, FORWARD, BACKWARD) to ensure producers and consumers can be deployed independently without downtime.\n3. Avoid breaking changes such as removing required fields or changing field types; instead, use optional fields with default values.\n4. Test schema compatibility in CI pipelines before deploying producer/consumer code changes.\n\n```mermaid\nflowchart LR\n    A[Producer Service] -->|Check Schema| B[Confluent Schema Registry]\n    B -->|Compatible| C[Publish Avro Message to Kafka]\n    C -->|Consume Message| D[Consumer Service with Registry Validation]\n```",
+          "difficulty": 3
+        },
+        {
+          "id": "q14",
+          "requirement_ids": [
+            "r16",
+            "r9"
+          ],
+          "category": "technical",
+          "prompt": "As a senior backend engineer operating in an Agile/Scrum environment, how do you manage technical debt backlog refinement alongside high-priority product feature delivery?",
+          "answer_outline": "1. Quantify technical debt impact on system reliability, velocity, and security (e.g., incident root cause analysis, latency regressions).\n2. Allocate a fixed percentage of capacity (e.g., 20-30% per sprint) exclusively for technical debt remediation and refactoring.\n3. Translate technical debt into business language, highlighting risk mitigation and cost savings to product managers during grooming sessions.\n4. Break down large refactoring tasks into incremental, deployable increments that integrate seamlessly into feature sprints.\n\n```mermaid\nflowchart TD\n    A[Identify Technical Debt] --> B[Quantify Risk & Business Impact]\n    B --> C[Allocate Sprint Capacity Percentage]\n    C --> D[Grooming: Translate Tech Debt into User Stories]\n    D --> E[Incremental Delivery & Validation]\n```",
+          "difficulty": 1
+        },
+        {
+          "id": "q15",
+          "requirement_ids": [
+            "r4",
+            "r9"
+          ],
+          "category": "technical",
+          "prompt": "Design a rate-limiting and API throttling middleware for a high-traffic REST API gateway handling millions of requests per second from diverse clients, ensuring fairness and resilience.",
+          "answer_outline": "1. Algorithm selection: Token Bucket or Sliding Window Counter implemented in Redis for sub-millisecond distributed checks.\n2. Architecture: Place rate limiting at the API Gateway or edge proxy (Envoy/Kong) to reject unauthorized or throttled requests before reaching backend services.\n3. Headers: Return standard rate-limiting headers (X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After).\n4. Handling high traffic gracefully: Use local in-memory caching layers with short TTLs to reduce Redis load during DDoS attacks.\n\n```mermaid\nflowchart LR\n    A[Incoming API Request] --> B[API Gateway / Edge Proxy]\n    B --> C{Check Redis Token Bucket}\n    C -->|Limit Exceeded| D[Return 429 Too Many Requests]\n    C -->|Within Limit| E[Forward to Backend Services]\n```",
+          "difficulty": 3
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "f1",
+          "front": "How do you achieve absolute idempotency in high-throughput payment routing APIs to prevent double-charging?",
+          "back": "1. Use API Gateway idempotency keys combined with distributed locking via Redis or DynamoDB conditional writes (attribute_not_exists). 2. Cache successful responses to return identical payloads on retries. 3. Use append-only event logs in the database for an immutable audit trail.",
+          "requirement_ids": [
+            "r2",
+            "r4",
+            "r7",
+            "r9"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:27.915Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f2",
+          "front": "How do you prevent CPU-bound tasks (e.g., heavy serialization or crypto) from starving the Node.js event loop?",
+          "back": "1. Identify blocks using diagnostic reports or clinic.js. 2. Offload compute-heavy logic to worker_threads or serverless functions (AWS Lambda). 3. Use asynchronous streaming APIs (stream.pipeline) for large payloads instead of loading entire datasets into the V8 heap.",
+          "requirement_ids": [
+            "r2",
+            "r3",
+            "r9"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:28.595Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f3",
+          "front": "Compare offset-based pagination versus cursor-based (keyset) pagination in large PostgreSQL datasets.",
+          "back": "Offset pagination degrades to O(N) at high offsets due to sequential scans. Cursor-based pagination uses indexed unique composite keys (e.g., WHERE (created_at, id) < ($1, $2) ORDER BY created_at DESC, id DESC LIMIT $3) for O(1) constant performance regardless of dataset depth.",
+          "requirement_ids": [
+            "r4",
+            "r7",
+            "r9"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:29.075Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f4",
+          "front": "Architect a serverless webhook delivery system with at-least-once delivery, exponential backoff, and DLQ isolation.",
+          "back": "1. Ingest via API Gateway into an SQS FIFO queue (preserving merchant order). 2. Trigger an AWS Lambda consumer to execute HTTP POST requests with a strict timeout. 3. Use SQS visibility timeout extensions on failure. 4. Route permanently failed messages to a DynamoDB Dead Letter Queue after max retries.",
+          "requirement_ids": [
+            "r4",
+            "r5",
+            "r13",
+            "r15"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:29.483Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f5",
+          "front": "How do you manage distributed transactions and eventual consistency across microservices using Apache Kafka?",
+          "back": "1. Adopt Orchestration or Choreography Saga patterns. 2. Use the Outbox Pattern in local databases to atomically store state and publish domain events. 3. Align Kafka partition keys with entity IDs (e.g., merchant_id) to guarantee ordering. 4. Build compensating transactions for rollback scenarios.",
+          "requirement_ids": [
+            "r6",
+            "r8",
+            "r13"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:29.859Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f6",
+          "front": "When should you choose PostgreSQL over DynamoDB for dynamic merchant metadata?",
+          "back": "Choose PostgreSQL when you need complex ad-hoc queries, relational integrity (foreign keys), strong ACID guarantees, and rich querying over JSONB columns. Choose DynamoDB when you need predictable single-digit millisecond latency at massive scale with known, simple key-value access patterns.",
+          "requirement_ids": [
+            "r7"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 2.18,
+            "nextReviewDate": "2026-09-10T10:11:32.331Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f7",
+          "front": "Describe an ideal Git branching and CI/CD zero-downtime deployment strategy for Kubernetes.",
+          "back": "1. Trunk-Based Development with short-lived feature branches. 2. CI Pipeline runs linting, tests, and Snyk security scans. 3. Push immutable Docker images to registry; update GitOps repo (ArgoCD) with Helm charts. 4. Deploy via rolling updates with readiness/liveness probes and canary routing via Istio.",
+          "requirement_ids": [
+            "r8",
+            "r12"
+          ],
+          "sm2": {
+            "repetitions": 1,
+            "interval": 1,
+            "easeFactor": 2.36,
+            "nextReviewDate": "2026-09-10T10:11:34.162Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f8",
+          "front": "Explain the Circuit Breaker pattern states and retry strategies for external financial partner APIs.",
+          "back": "1. States: Closed (normal), Open (fast-failing after threshold breaches), Half-Open (testing recovery with limited traffic). 2. Track failures via sliding time windows. 3. Retry with exponential backoff and full jitter to prevent thundering herds when partner APIs recover.",
+          "requirement_ids": [
+            "r9"
+          ],
+          "sm2": {
+            "repetitions": 1,
+            "interval": 1,
+            "easeFactor": 2.5,
+            "nextReviewDate": "2026-09-10T10:11:35.915Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f9",
+          "front": "How do you manage infrastructure drift and secure state when provisioning AWS resources with Terraform?",
+          "back": "1. Use encrypted remote S3 backends with DynamoDB state locking. 2. Structure code using reusable modules (VPC, ECS, RDS) and isolated root environments. 3. Integrate `terraform plan`, `tfsec`, and `tflint` into CI/CD. 4. Run scheduled periodic plan checks to detect manual drift.",
+          "requirement_ids": [
+            "r5",
+            "r11"
+          ],
+          "sm2": {
+            "repetitions": 1,
+            "interval": 1,
+            "easeFactor": 2.6,
+            "nextReviewDate": "2026-09-10T10:11:36.539Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f10",
+          "front": "Design a comprehensive observability strategy for a distributed Node.js microservices ecosystem on AWS.",
+          "back": "1. Structured JSON logging via Pino/Winston with injected correlation trace IDs. 2. RED metrics (Rate, Errors, Duration) via Prometheus/CloudWatch. 3. Distributed tracing using OpenTelemetry SDK propagating W3C headers. 4. Actionable SLO-based alerts routed to PagerDuty.",
+          "requirement_ids": [
+            "r2",
+            "r5",
+            "r14"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:37.459Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f11",
+          "front": "When and how do you integrate Kotlin and Spring Boot alongside Node.js services?",
+          "back": "1. Use Kotlin/Spring Boot for heavy analytical processing, batch modeling, and complex financial calculations. 2. Communicate via gRPC over HTTP/2 for low-latency RPC or asynchronous Kafka streams. 3. Share Protobuf definitions across TypeScript and Kotlin for strict contract alignment.",
+          "requirement_ids": [
+            "r2",
+            "r10",
+            "r13"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:37.907Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f12",
+          "front": "How do you optimize Docker container images for Node.js and TypeScript applications?",
+          "back": "1. Use multi-stage builds (Stage 1 compiles TypeScript with devDependencies; Stage 2 contains only production runtime files and dependencies). 2. Use lightweight secure base images (node:20-alpine or distroless). 3. Cache layers by copying package files before source code. 4. Run as non-root and scan for CVEs with Trivy.",
+          "requirement_ids": [
+            "r2",
+            "r3",
+            "r8",
+            "r12"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:38.387Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f13",
+          "front": "How do you ensure schema evolution and backwards compatibility in Kafka with Schema Registry?",
+          "back": "1. Use Confluent Schema Registry with Apache Avro or JSON Schema. 2. Enforce compatibility rules (BACKWARD, FORWARD, FULL) to allow independent deployments. 3. Avoid breaking changes like removing required fields; use optional fields with default values instead.",
+          "requirement_ids": [
+            "r13"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:38.835Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f14",
+          "front": "How do you balance technical debt remediation with product feature delivery in Agile/Scrum?",
+          "back": "1. Quantify impact on reliability, velocity, and security. 2. Allocate a fixed percentage of capacity (e.g., 20-30% per sprint) for refactoring. 3. Translate tech debt into business risk and cost metrics for product managers during grooming. 4. Break refactoring into incremental deliverable units.",
+          "requirement_ids": [
+            "r16"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:39.267Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f15",
+          "front": "Design a rate-limiting and throttling strategy for a high-traffic REST API gateway.",
+          "back": "1. Implement Token Bucket or Sliding Window algorithms in Redis for sub-millisecond distributed checks. 2. Place rate limiters at the edge proxy/API Gateway (Envoy/Kong). 3. Return standard headers (X-RateLimit-Limit, Retry-After). 4. Use short-lived local in-memory caches to survive Redis degradation under DDoS.",
+          "requirement_ids": [
+            "r4",
+            "r9"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:39.675Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f16",
+          "front": "How do you design a global API versioning and deprecation lifecycle strategy?",
+          "back": "1. Combine URI path versioning (/v1/, /v2/) with request header versioning (Stripe-Version: YYYY-MM-DD). 2. Use API Gateway / Node.js middleware to route requests based on version headers. 3. Inject deprecation warning headers and provide automated SDK generators. 4. Track remaining traffic per version to sunset safely.",
+          "requirement_ids": [
+            "r2",
+            "r4",
+            "r9"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:40.107Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f17",
+          "front": "Design a secure file upload and document processing pipeline using AWS S3 and serverless workers.",
+          "back": "1. Use direct-to-S3 pre-signed URLs to bypass proxying binary payloads through application servers. 2. Enforce SSE-S3/KMS encryption and short URL expiration. 3. Trigger S3 Object Created events via SQS to ECS/Lambda workers for ClamAV virus scanning and OCR (Textract). 4. Move infected files to an isolated quarantine bucket.",
+          "requirement_ids": [
+            "r4",
+            "r5",
+            "r15"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:40.699Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f18",
+          "front": "How do you implement automated canary deployments with metrics-driven evaluation?",
+          "back": "1. Shift a small percentage of traffic (e.g., 10%) to canary pods via Istio mesh or ALB weighted routing. 2. Monitor real-time Prometheus or CloudWatch error rates and latency deltas against baseline. 3. Automatically promote if thresholds are met, or trigger an automated rollback upon anomaly detection.",
+          "requirement_ids": [
+            "r8",
+            "r12",
+            "r14"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 1.96,
+            "nextReviewDate": "2026-09-10T10:11:41.123Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f19",
+          "front": "Design a distributed ledger schema supporting double-entry bookkeeping with ACID consistency across shards.",
+          "back": "1. Use immutable append-only ledger entries and account balance tables with optimistic concurrency control. 2. Partition or shard based on tenant_id or account_id. 3. Enforce the mathematical invariant (sum of debits equals credits) within distributed transactions managed via Sagas or 2PC.",
+          "requirement_ids": [
+            "r7",
+            "r9"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 2.18,
+            "nextReviewDate": "2026-09-10T10:11:42.131Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f20",
+          "front": "How do you handle multi-region active-active database replication and conflict resolution?",
+          "back": "1. Use Anycast DNS to route clients to the nearest AWS region. 2. Implement Last-Write-Wins (LWW) using Hybrid Logical Clocks (HLC) or Conflict-Free Replicated Data Types (CRDTs) for preference fields. 3. Stream asynchronous cross-region replication logs with idempotent merge handlers.",
+          "requirement_ids": [
+            "r5",
+            "r7"
+          ],
+          "sm2": {
+            "repetitions": 0,
+            "interval": 1,
+            "easeFactor": 2.18,
+            "nextReviewDate": "2026-09-10T10:11:42.699Z"
+          },
+          "_state": "edited"
+        },
+        {
+          "id": "f21",
+          "front": "How do you design a real-time fraud scoring pipeline in AWS with a strict 50ms latency budget?",
+          "back": "1. API Gateway fronting a Node.js Lambda function with connection reuse. 2. Parallelize calls: fetch user velocity features from DynamoDB/DAX cache while simultaneously calling the external ML inference engine. 3. Implement circuit breaking and fallback heuristic rules if the ML service exceeds 30ms.",
+          "requirement_ids": [
+            "r2",
+            "r5",
+            "r15"
+          ]
+        },
+        {
+          "id": "f22",
+          "front": "How do you build a high-performance GraphQL and REST API gateway aggregator (BFF) in TypeScript?",
+          "back": "1. Structure as a Backend-for-Frontend (BFF) in TypeScript. 2. Wrap downstream calls in circuit breakers (Opossum) and timeouts. 3. Handle partial failures gracefully by returning null fields with error extensions. 4. Use the DataLoader pattern to batch and deduplicate N+1 database or service queries.",
+          "requirement_ids": [
+            "r2",
+            "r3",
+            "r4",
+            "r9"
+          ]
+        },
+        {
+          "id": "f23",
+          "front": "Design a distributed audit logging system for petabytes of transactions with sub-second querying.",
+          "back": "1. Stream JSON logs via Fluentbit daemonsets into Kafka audit topics. 2. Use dual consumers: write raw immutable logs to S3 WORM storage (Parquet format) and index searchable logs into Elasticsearch/OpenSearch with index lifecycle management (ILM).",
+          "requirement_ids": [
+            "r5",
+            "r7",
+            "r13"
+          ]
+        },
+        {
+          "id": "f24",
+          "front": "How do you design a distributed subscription and recurring billing scheduling engine?",
+          "back": "1. Combine AWS EventBridge with SQS delayed messages or database polling with pessimistic locking. 2. Define a strict subscription state machine (Trialing, Active, Past Due, Canceled). 3. Implement smart dunning retry schedules for expired or declined credit cards with automated customer notifications.",
+          "requirement_ids": [
+            "r4",
+            "r5",
+            "r9",
+            "r13"
+          ]
+        },
+        {
+          "id": "f25",
+          "front": "What security and compliance practices must be enforced when handling sensitive financial data in Node.js/TypeScript?",
+          "back": "1. Enforce data minimization: ensure raw primary account numbers (PAN) never touch application servers; use client-side tokenization and vault services. 2. Enforce TLS in transit and AES-256 encryption at rest. 3. Manage secrets via AWS Secrets Manager. 4. Run static analysis and dependency scanners in CI/CD.",
+          "requirement_ids": [
+            "r2",
+            "r3",
+            "r5",
+            "r8"
+          ]
+        }
+      ],
+      "schedule": {
+        "days_available": 30,
+        "days": [
+          {
+            "day": 1,
+            "focus": "Deep Technical Skills",
+            "question_ids": [
+              "q1",
+              "q2"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 2,
+            "focus": "Deep Technical Skills",
+            "question_ids": [
+              "q4",
+              "q5"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 3,
+            "focus": "Deep Technical Skills",
+            "question_ids": [
+              "q8",
+              "q13"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 4,
+            "focus": "Deep Technical Skills",
+            "question_ids": [
+              "q15",
+              "q16"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 5,
+            "focus": "Deep Behavioural Prep",
+            "question_ids": [
+              "q17",
+              "q18"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 6,
+            "focus": "Deep Behavioural Prep",
+            "question_ids": [
+              "q19",
+              "q22"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 7,
+            "focus": "Deep Behavioural Prep",
+            "question_ids": [
+              "q23",
+              "q26"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 8,
+            "focus": "Deep Behavioural Prep",
+            "question_ids": [
+              "q28",
+              "q29"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 9,
+            "focus": "Deep Behavioural Prep",
+            "question_ids": [
+              "q30",
+              "q31"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 10,
+            "focus": "Deep System Design",
+            "question_ids": [
+              "q32",
+              "q33"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 11,
+            "focus": "Deep System Design",
+            "question_ids": [
+              "q34",
+              "q37"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 12,
+            "focus": "Deep System Design",
+            "question_ids": [
+              "q38",
+              "q41"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 13,
+            "focus": "Deep System Design",
+            "question_ids": [
+              "q45",
+              "q46"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 14,
+            "focus": "Deep Company & Culture",
+            "question_ids": [
+              "q47",
+              "q48"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 15,
+            "focus": "Deep Company & Culture",
+            "question_ids": [
+              "q49",
+              "q50"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 16,
+            "focus": "Deep Company & Culture",
+            "question_ids": [
+              "q53",
+              "q54"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 17,
+            "focus": "Deep Company & Culture",
+            "question_ids": [
+              "q55",
+              "q57"
+            ],
+            "minutes": 80
+          },
+          {
+            "day": 18,
+            "focus": "Technical Skills",
+            "question_ids": [
+              "q59",
+              "q3",
+              "q6"
+            ],
+            "minutes": 90
+          },
+          {
+            "day": 19,
+            "focus": "Technical Skills",
+            "question_ids": [
+              "q7",
+              "q9",
+              "q10"
+            ],
+            "minutes": 75
+          },
+          {
+            "day": 20,
+            "focus": "Behavioural Prep",
+            "question_ids": [
+              "q20",
+              "q21",
+              "q24"
+            ],
+            "minutes": 75
+          },
+          {
+            "day": 21,
+            "focus": "Behavioural Prep",
+            "question_ids": [
+              "q25",
+              "q27",
+              "q35"
+            ],
+            "minutes": 75
+          },
+          {
+            "day": 22,
+            "focus": "System Design",
+            "question_ids": [
+              "q36",
+              "q39",
+              "q40"
+            ],
+            "minutes": 75
+          },
+          {
+            "day": 23,
+            "focus": "System Design",
+            "question_ids": [
+              "q42",
+              "q43",
+              "q44"
+            ],
+            "minutes": 75
+          },
+          {
+            "day": 24,
+            "focus": "Company & Culture",
+            "question_ids": [
+              "q51",
+              "q52",
+              "q56"
+            ],
+            "minutes": 75
+          },
+          {
+            "day": 25,
+            "focus": "Company & Culture",
+            "question_ids": [
+              "q58",
+              "q60",
+              "q14",
+              "q11"
+            ],
+            "minutes": 90
+          },
+          {
+            "day": 26,
+            "focus": "Technical Skills",
+            "question_ids": [
+              "q12"
+            ],
+            "minutes": 25
+          },
+          {
+            "day": 27,
+            "focus": "Review",
+            "question_ids": [],
+            "minutes": 0
+          },
+          {
+            "day": 28,
+            "focus": "Review",
+            "question_ids": [],
+            "minutes": 0
+          },
+          {
+            "day": 29,
+            "focus": "Review",
+            "question_ids": [],
+            "minutes": 0
+          },
+          {
+            "day": 30,
+            "focus": "Review",
+            "question_ids": [],
+            "minutes": 0
+          }
+        ]
+      },
+      "coverage": {
+        "uncovered_requirement_ids": [],
+        "passes": 1
+      },
+      "createdAt": "2026-09-09T10:08:14.779Z",
+      "updatedAt": "2026-09-09T10:31:00.219Z"
+    }
+  },
+  "sessions": {},
+  "idCounter": 1016
+}

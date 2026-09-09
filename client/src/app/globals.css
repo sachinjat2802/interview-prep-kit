@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --border: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+  }
+
+  .dark {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --border: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+  }
+}
+
+body {
+  background-color: #ffffff;
+  color: #09090b;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(0, 0, 0, 0.03) 0%, transparent 60%);
+  background-attachment: fixed;
+}
+
+/* High-Contrast White Background Cards */
+.defi-card {
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.defi-card:hover {
+  background: #ffffff;
+  border-color: #18181b;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* High-Contrast Input Fields */
+.defi-input {
+  background: #ffffff;
+  border: 1px solid #d4d4d8;
+  color: #09090b;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.defi-input:focus {
+  border-color: #09090b;
+  box-shadow: 0 0 0 2px rgba(9, 9, 11, 0.1);
+  outline: none;
+}
+
+/* High-Contrast Buttons */
+.btn-defi-mint {
+  background: #09090b;
+  color: #ffffff;
+  font-weight: 700;
+  border: 1px solid #09090b;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  transition: all 0.2s ease;
+}
+
+.btn-defi-mint:hover {
+  background: #27272a;
+  color: #ffffff;
+  border-color: #27272a;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  transform: translateY(-1px);
+}
+
+.btn-defi-secondary {
+  background: #ffffff;
+  border: 1px solid #d4d4d8;
+  color: #09090b;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-defi-secondary:hover {
+  background: #f4f4f5;
+  border-color: #18181b;
+  color: #09090b;
+}
+
+.btn-defi-violet {
+  background: #f4f4f5;
+  border: 1px solid #d4d4d8;
+  color: #09090b;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-defi-violet:hover {
+  background: #e4e4e7;
+  border-color: #18181b;
+}
+
+/* Badges */
+.badge-defi-mint {
+  background: #09090b;
+  border: 1px solid #09090b;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.badge-defi-violet {
+  background: #f4f4f5;
+  border: 1px solid #e4e4e7;
+  color: #09090b;
+  font-weight: 600;
+}
+
+.badge-defi-amber {
+  background: #f4f4f5;
+  border: 1px solid #d4d4d8;
+  color: #09090b;
+}
+
+.badge-defi-cyan {
+  background: #18181b;
+  border: 1px solid #18181b;
+  color: #ffffff;
+}
+
+/* Text Gradients */
+.text-gradient-mint {
+  background: linear-gradient(135deg, #09090b 40%, #52525b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-violet {
+  background: linear-gradient(135deg, #09090b 40%, #71717a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #09090b;
+}
+
+/* Print layout optimization */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .printable-cheatsheet, .printable-cheatsheet * {
+    visibility: visible;
+  }
+  .printable-cheatsheet {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
